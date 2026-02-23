@@ -14,7 +14,7 @@ EmulationStation theme built specifically for the R36S retro handheld.
 2. Extract the ZIP
 3. Copy the folder to your SD card:  
    - ArkOS → `/roms/themes/`  
-   - Pan4ELEC → ssh into device, paste folder into `/.config/.emulationstation/themes/`
+   - Pan4ELEC → ssh into device, paste entire folder into themes folder
 5. Start → UI Settings → Theme → select your new theme
 
 ## Compatibility
