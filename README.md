@@ -18,7 +18,7 @@ EmulationStation theme built specifically for the R36S retro handheld.
 5. Start → UI Settings → Theme → select your new theme
 
 ## Compatibility
-Tested on: [ArkOS latest / Pan4ELEC / etc.]  
+Works on: ArkOS / Pan4ELEC. Will post a script to get it working on DarkOS soon.
 May work on similar devices (R35S, K36, etc.) but optimized for R36S.
 
 ## Screenshots
