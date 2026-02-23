@@ -25,9 +25,9 @@ May work on similar devices (R35S, K36, etc.) but optimized for R36S.
 
 <img src="https://i.postimg.cc/HkNj549S/u_screenshot_020.png" alt="Arcade System View" width="600"/>
 
-<img src="https://i.postimg.cc/FH61cgVG/u_screenshot_019.png" alt="PSP System View" width="600"/>
-
 <img src="https://i.postimg.cc/6pPTRLfM/u_screenshot_021.png" alt="Arcade Game List View" width="600"/>
+
+<img src="https://i.postimg.cc/FH61cgVG/u_screenshot_019.png" alt="PSP System View" width="600"/>
 
 <img src="https://i.postimg.cc/Dw088YLH/u_screenshot_018.png" alt="PSP Game List View" width="600"/>
 
