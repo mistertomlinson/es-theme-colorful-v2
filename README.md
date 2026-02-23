@@ -23,10 +23,13 @@ May work on similar devices (R35S, K36, etc.) but optimized for R36S.
 
 ## Screenshots
 
-<image-card alt="Arcade System View" src="https://i.postimg.cc/HkNj549S/u_screenshot_020.png" ></image-card>
-<image-card alt="PSP System View" src="https://i.postimg.cc/FH61cgVG/u_screenshot_019.png" ></image-card>
-<image-card alt="Arcade Game List View" src="https://i.postimg.cc/6pPTRLfM/u_screenshot_021.png" ></image-card>
-<image-card alt="PSP Game List View" src="https://i.postimg.cc/Dw088YLH/u_screenshot_018.png" ></image-card>
+![Arcade System View](https://i.postimg.cc/HkNj549S/u_screenshot_020.png)
+
+![PSP System View](https://i.postimg.cc/FH61cgVG/u_screenshot_019.png)
+
+![Arcade Game List View](https://i.postimg.cc/6pPTRLfM/u_screenshot_021.png)
+
+![PSP Game List View](https://i.postimg.cc/Dw088YLH/u_screenshot_018.png)
 
 ## Credits
 I deserve none as all the assets were taken from the Colorful BigBox Theme made by Viking at Launchbox. The guy works professionally in computer animation and spent a lot of time and effort on the original theme. He made all of the assets for the project publicly available online… Then someone else came along and, using those assets, created a version for handhelds. He shrunk all the images and videos and created a UI suitable for these devices. Again, he probably spent a lot of time and effort. I simply made some UI tweaks, created a few missing system views, implemented a few UI settings so people could customize it to their liking and OS and posted it here where more people might find it. Before now, the only place I could find it was in a YouTube comment. Hopefully I have gotten it more exposure. I deserve little credit for this.
