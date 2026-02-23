@@ -1,27 +1,25 @@
-# "Handheld Simple" _(es-theme-handheld-simple)_
+# es-theme-colorful-v2
 
-A theme for [EmulationStation](https://emulationstation.org/), specifically
-designed for handheld devices.
+EmulationStation theme built specifically for the R36S retro handheld.
 
+## Features
+- Tuned for the R36S's 640×480 screen resolution
+- Supports [ArkOS / Pan4ELEC]
 
-## Design Goal
+## Installation
+### Quick Install (via ThemeMaster)
 
-While this is a generic EmulationStation theme, its been designed specifically
-for the [ANBERNIC RG351P](https://www.anbernic.com/engappliance_sel_one?eng_ApplianceVo.eac_id=53),
-running [351ELEC](https://github.com/fewtarius/351ELEC).
+### Manual Install
+1. Download this repo: Green **Code** button → **Download ZIP**
+2. Extract the ZIP
+3. Copy the folder to your SD card:  
+   - ArkOS → `/roms/themes/`  
+   - Pan4ELEC → ssh into device, paste folder into `/.config/.emulationstation/themes/`
+5. Start → UI Settings → Theme → select your new theme
 
-There are no guarantees that this theme will run correctly or display well on
-other devices, operating systems, or otherwise.
+## Compatibility
+Tested on: [ArkOS latest / Pan4ELEC / etc.]  
+May work on similar devices (R35S, K36, etc.) but optimized for R36S.
 
-
-## Notice
-
-This theme contains assets and resources gathered from:
-
- - [Roboto](https://fonts.google.com/specimen/Roboto)
- - [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)
- - [es-theme-EmuELEC-carbon](https://github.com/EmuELEC/es-theme-EmuELEC-carbon)
-
-Beyond that, this repository/theme contains resources that are registered
-trademarks of other products, companies, and entities. This is intended as a
-fair use styling effort, and nothing more.
+## Credits
+I deserve none as all the assets were taken from the Colorful BigBox Theme made by Viking at Launchbox. The guy works professionally in computer animation and spent a lot of time and effort on the original theme. He made all of the assets for the project publicly available online… Then someone else came along and, using those assets, created a version for handhelds. He shrunk all the images and videos and created a UI suitable for these devices. Again, he probably spent a lot of time and effort. I simply made some UI tweaks, created a few missing system views, implemented a few UI settings so people could customize it to their liking and OS and posted it here where more people might find it. Before now, the only place I could find it was in a YouTube comment. Hopefully I have gotten it more exposure. I deserve little credit for this.
