@@ -1,0 +1,172 @@
+<theme>
+
+<formatVersion>7</formatVersion>   
+
+<include>./../theme.xml</include> 
+
+  <subset name="systemvideos" displayName="System Videos">
+    <include name="on" displayName="Enabled">./../inc/systemvideosra.xml</include>
+    <include name="off" displayName="Disabled (Smoother Performance)">./../inc/systemvideosranv.xml</include>
+  </subset>
+
+<subset name="help_ui" displayName="Help UI">
+  <!-- Bubble overlay options -->
+  <include name="bubble_on_unswapped" displayName="Bubble: 'All Games' On + A/B Unswapped">./../inc/helpbar/retroarch_help_xmls/on_unswapped.xml</include>
+  <include name="bubble_on_swapped" displayName="Bubble: 'All Games' On + A/B Swapped">./../inc/helpbar/retroarch_help_xmls/on_swapped.xml</include>
+  <include name="bubble_off_unswapped" displayName="Bubble: 'All Games' Off + A/B Unswapped">./../inc/helpbar/retroarch_help_xmls/off_unswapped.xml</include>
+  <include name="bubble_off_swapped" displayName="Bubble: 'All Games' Off + A/B Swapped">./../inc/helpbar/retroarch_help_xmls/off_swapped.xml</include>
+
+  <include name="strip_small" displayName="Strip: Small Font">./../inc/helpbar/retroarch_help_xmls/strip_small.xml</include>
+  <include name="strip_medium" displayName="Strip: Medium Font">./../inc/helpbar/retroarch_help_xmls/strip_medium.xml</include>
+  <include name="strip_large" displayName="Strip: Large Font">./../inc/helpbar/retroarch_help_xmls/strip_large.xml</include>
+
+  <include name="no_strip_small" displayName="No Overlay: Small Font">./../inc/helpbar/retroarch_help_xmls/small.xml</include>
+  <include name="no_strip_medium" displayName="No Overlay: Medium Font">./../inc/helpbar/retroarch_help_xmls/medium.xml</include>
+  <include name="no_strip_large" displayName="No Overlay: Large Font">./../inc/helpbar/retroarch_help_xmls/large.xml</include>
+</subset>
+
+  <view name="system">
+    <image name="background" extra="true">
+         <origin>1 0.5</origin>
+         <pos>1 0.5</pos>
+         <maxSize>10 1</maxSize>
+         <zIndex>7</zIndex>                 
+         <path>./../assets/wall/${system.theme}.png</path>
+         <path>./../assets/wall/${system.theme}.jpg</path>
+    </image>       
+
+  </view>
+
+<view name="detailed,video">
+
+
+<text name="md_lbl_releasedate,md_lbl_publisher">
+    <color>00000095</color>
+    <forceUppercase>1</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.03125 0.041666666666667</size>
+    <visible>false</visible>
+</text>
+
+<text name="md_publisher">
+    <color>00000095</color>
+    <forceUppercase>0</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.2 0.041666666666667</size>
+    <visible>false</visible>
+</text>
+
+<datetime name="md_releasedate">
+    <color>00000095</color>
+    <forceUppercase>0</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.1875 0.041666666666667</size>
+    <visible>false</visible>
+</datetime>
+
+<text name="md_publisher">
+    <pos>0.575 0.7</pos>
+         <autoScroll>horizontal</autoScroll>
+         <autoScrollSpeed>50</autoScrollSpeed>
+         <autoScrollDelay>0</autoScrollDelay>
+    <visible>false</visible>
+</text>
+
+
+<datetime name="md_releasedate">
+    <pos>0.84 0.7</pos>
+    <visible>false</visible>
+</datetime>
+
+      <image name="md_releasedate_icon" extra="true">
+         <path>./inc/images/icon-releasedate.svg</path>
+         <origin>0 0.5</origin>
+         <pos>0.794 0.72</pos>
+         <size>0.03125 0.041666666666667</size>
+         <color>00000095</color>
+         <storyboard event="activate">
+            <animation property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+         </storyboard>
+    <visible>false</visible>
+      </image>
+
+      <image name="md_publisher_icon" extra="true">
+         <path>./inc/images/icon-publisher.svg</path>
+         <origin>0 0.5</origin>
+         <pos>0.527 0.72</pos>
+         <size>0.03125 0.041666666666667</size>
+         <color>00000095</color>
+         <storyboard event="activate">
+            <animation property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+         </storyboard>
+    <visible>false</visible>
+      </image>
+  </view>
+
+     <view name="basic, detailed, video, automatic">
+
+  <helpsystem name="help">
+    <origin>0.5 1</origin>
+    <pos>0.515 -0.98</pos>
+    <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+    <fontSize>0.025</fontSize>
+    <alignment>center</alignment>
+    <textColor>${colorWhite}</textColor>
+    <iconColor>${colorWhite}</iconColor>
+  </helpsystem>
+
+    <image name="background12" extra="true">
+         <origin>1 0.5</origin>
+         <pos>1 0.5</pos>
+         <maxSize>10 1</maxSize>
+         <zIndex>22</zIndex>                 
+         <path>./../assets/wall/retroarch.png</path>
+         <path>./../assets/wall/retroarch.jpg</path>
+    </image> 
+
+    <image name="background123" extra="true">
+         <origin>1 0.5</origin>
+         <pos>1 0.5</pos>
+         <maxSize>10 1</maxSize>
+         <zIndex>23</zIndex>                 
+         <path>./../toolsgamelistra.png</path>
+    </image> 
+
+    <image name="logo">
+      <maxSize>0.35 0.425</maxSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.25 0.5</pos>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
+      <path>./assets/logos/${system.theme}.png</path>
+      <path>./assets/logos/${system.theme}.svg</path>
+      <path>./assets/logos/us/${system.theme}.png</path>
+      <path>./assets/logos/us/${system.theme}.svg</path>
+      <path>./assets/logos/${system.theme}-${lang}.png</path>
+      <path>./assets/logos/${system.theme}-${lang}.svg</path>
+    </image>
+
+    <textlist name="gamelist">
+      <size>0.50 0.75</size>
+      <origin>0 0</origin>
+      <pos>0.495 0.425</pos>
+      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontSize>0.035</fontSize>
+      <alignment>right</alignment>
+      <horizontalMargin>0.015</horizontalMargin>
+      <lineSpacing>1.385</lineSpacing>
+      <primaryColor>ffffff80</primaryColor>
+      <secondaryColor>ffffff80</secondaryColor>
+      <selectorColor>${selectorcolor}</selectorColor>
+      <selectedColor>ffffff</selectedColor>
+      <scrollSound>${soundScroll}</scrollSound>
+      <zIndex>24</zIndex>
+    </textlist>
+
+    </view>
+
+
+</theme>

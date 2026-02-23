@@ -1,0 +1,96 @@
+<theme>
+
+<formatVersion>7</formatVersion>   
+
+<include>./../theme.xml</include> 
+
+  <subset name="systemvideos" displayName="System Videos">
+    <include name="on" displayName="Enabled">./../inc/systemvideosrp.xml</include>
+    <include name="off" displayName="Disabled (Smoother Performance)">./../inc/rpnovid.xml</include>
+  </subset>
+
+<subset name="help_ui" displayName="Help UI">
+  <!-- Bubble overlay options -->
+  <include name="bubble_on_unswapped" displayName="Bubble: 'All Games' On + A/B Unswapped">./../inc/helpbar/retropie_help_xmls/on_unswapped.xml</include>
+  <include name="bubble_on_swapped" displayName="Bubble: 'All Games' On + A/B Swapped">./../inc/helpbar/retropie_help_xmls/on_swapped.xml</include>
+  <include name="bubble_off_unswapped" displayName="Bubble: 'All Games' Off + A/B Unswapped">./../inc/helpbar/retropie_help_xmls/off_unswapped.xml</include>
+  <include name="bubble_off_swapped" displayName="Bubble: 'All Games' Off + A/B Swapped">./../inc/helpbar/retropie_help_xmls/off_swapped.xml</include>
+
+  <include name="strip_small" displayName="Strip: Small Font">./../inc/helpbar/retropie_help_xmls/strip_small.xml</include>
+  <include name="strip_medium" displayName="Strip: Medium Font">./../inc/helpbar/retropie_help_xmls/strip_medium.xml</include>
+  <include name="strip_large" displayName="Strip: Large Font">./../inc/helpbar/retropie_help_xmls/strip_large.xml</include>
+
+  <include name="no_strip_small" displayName="No Overlay: Small Font">./../inc/helpbar/retropie_help_xmls/small.xml</include>
+  <include name="no_strip_medium" displayName="No Overlay: Medium Font">./../inc/helpbar/retropie_help_xmls/medium.xml</include>
+  <include name="no_strip_large" displayName="No Overlay: Large Font">./../inc/helpbar/retropie_help_xmls/large.xml</include>
+</subset>
+
+<view name="detailed">
+
+<text name="md_lbl_releasedate,md_lbl_publisher">
+    <color>00000095</color>
+    <forceUppercase>1</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.03125 0.041666666666667</size>
+    <visible>false</visible>
+</text>
+
+<text name="md_publisher">
+    <color>00000095</color>
+    <forceUppercase>0</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.2 0.041666666666667</size>
+    <visible>false</visible>
+</text>
+
+<datetime name="md_releasedate">
+    <color>00000095</color>
+    <forceUppercase>0</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.1875 0.041666666666667</size>
+    <visible>false</visible>
+</datetime>
+
+<text name="md_publisher">
+    <pos>0.575 0.7</pos>
+         <autoScroll>horizontal</autoScroll>
+         <autoScrollSpeed>50</autoScrollSpeed>
+         <autoScrollDelay>0</autoScrollDelay>
+    <visible>false</visible>
+</text>
+
+
+<datetime name="md_releasedate">
+    <pos>0.84 0.7</pos>
+    <visible>false</visible>
+</datetime>
+
+      <image name="md_releasedate_icon" extra="true">
+         <path>./inc/images/icon-releasedate.svg</path>
+         <origin>0 0.5</origin>
+         <pos>0.794 0.72</pos>
+         <size>0.03125 0.041666666666667</size>
+         <color>00000095</color>
+         <storyboard event="activate">
+            <animation property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+         </storyboard>
+    <visible>false</visible>
+      </image>
+
+      <image name="md_publisher_icon" extra="true">
+         <path>./inc/images/icon-publisher.svg</path>
+         <origin>0 0.5</origin>
+         <pos>0.527 0.72</pos>
+         <size>0.03125 0.041666666666667</size>
+         <color>00000095</color>
+         <storyboard event="activate">
+            <animation property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+         </storyboard>
+    <visible>false</visible>
+      </image>
+  </view>
+
+</theme>

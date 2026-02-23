@@ -1,0 +1,12 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+  <subset name="device" displayName="Tools Screen">
+    <include name="r36s" displayName="R36S">./../inc/r36s.xml</include>
+    <include name="g350" displayName="G350">./../inc/g350.xml</include>
+    <include name="r36h" displayName="R36H">./../inc/r36h.xml</include>
+    <include name="r36xx" displayName="R36XX">./../inc/r36xx.xml</include>
+  </subset>
+
+
+</theme>

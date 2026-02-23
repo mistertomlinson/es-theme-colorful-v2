@@ -1,0 +1,10 @@
+<theme>
+<formatVersion>7</formatVersion>
+      <variables>
+            <!-- Color of background from system preview -->
+            <backcolor>257f82</backcolor>
+            <gameListScrollbarColor>1f6d6e</gameListScrollbarColor>
+            <!-- Black at 160 overlay -->
+            <selectedcolor>257f82</selectedcolor>
+      </variables>
+</theme>

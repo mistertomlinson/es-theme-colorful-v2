@@ -1,0 +1,329 @@
+<theme>
+
+<formatVersion>7</formatVersion>   
+
+<include>./../theme.xml</include> 
+
+  <subset name="rounded screen corners" displayName="Rounded Screen Corners">
+    <include name="on" displayName="On">./../inc/corn.xml</include>
+    <include name="off" displayName="Off"/>
+  </subset>
+
+
+  <subset name="systemvideos" displayName="System Videos">
+    <include name="on" displayName="Enabled">./../inc/systemvideost.xml</include>
+    <include name="off" displayName="Disabled (Smoother Performance)"/>
+  </subset>
+
+  <view name="system">
+    <image name="background" extra="true">
+         <origin>1 0.5</origin>
+         <pos>1 0.5</pos>
+         <maxSize>10 1</maxSize>
+         <zIndex>7</zIndex>                 
+         <path>./assets/wall/${system.theme}.png</path>
+         <path>./assets/wall/${system.theme}.jpg</path>
+    </image>
+
+    <helpsystem name="help">
+      <origin>0 0</origin>
+      <pos>0.036 0.946</pos>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontSize>0.025</fontSize>
+      <textColor>${colorWhite}</textColor>
+      <iconColor>${colorWhite}</iconColor>
+    </helpsystem>
+
+<helpsystem ifSubset="help_ui:strip_small" name="help">
+  <origin>0.5 1</origin> 
+  <pos>0.51 0.989</pos>        
+  <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+  <fontSize>0.022</fontSize>
+  <alignment>center</alignment> 
+  <textColor>${colorWhite}</textColor>
+  <iconColor>${colorWhite}</iconColor>
+</helpsystem>
+
+<helpsystem ifSubset="help_ui:strip_medium" name="help">
+  <origin>0.5 1</origin> 
+  <pos>0.51 0.989</pos>        
+  <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+  <fontSize>0.026</fontSize>
+  <alignment>center</alignment> 
+  <textColor>${colorWhite}</textColor>
+  <iconColor>${colorWhite}</iconColor>
+</helpsystem>
+
+<helpsystem ifSubset="help_ui:strip_large" name="help">
+  <origin>0.5 1</origin> 
+  <pos>0.51 0.988</pos>        
+  <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+  <fontSize>0.031</fontSize>
+  <alignment>center</alignment> 
+  <textColor>${colorWhite}</textColor>
+  <iconColor>${colorWhite}</iconColor>
+</helpsystem>
+
+<helpsystem ifSubset="help_ui:no_strip_small" name="help">
+  <origin>0.5 1</origin> 
+  <pos>0.51 0.984</pos>        
+  <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+  <fontSize>0.022</fontSize>
+  <alignment>center</alignment> 
+  <textColor>${colorWhite}</textColor>
+  <iconColor>${colorWhite}</iconColor>
+</helpsystem>
+
+<helpsystem ifSubset="help_ui:no_strip_medium" name="help">
+  <origin>0.5 1</origin> 
+  <pos>0.51 0.984</pos>        
+  <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+  <fontSize>0.026</fontSize>
+  <alignment>center</alignment> 
+  <textColor>${colorWhite}</textColor>
+  <iconColor>${colorWhite}</iconColor>
+</helpsystem>
+
+<helpsystem ifSubset="help_ui:no_strip_large" name="help">
+  <origin>0.5 1</origin> 
+  <pos>0.51 0.984</pos>        
+  <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+  <fontSize>0.031</fontSize>
+  <alignment>center</alignment> 
+  <textColor>${colorWhite}</textColor>
+  <iconColor>${colorWhite}</iconColor>
+</helpsystem>
+
+    <helpsystem ifSubset="help_ui:bubble_off" name="help">
+      <origin>0 0</origin>
+      <pos>0.036 0.946</pos>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontSize>0.025</fontSize>
+      <textColor>${colorWhite}</textColor>
+      <iconColor>${colorWhite}</iconColor>
+    </helpsystem>
+
+<image name="help_bubble_on_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_unswapped" extra="true">
+  <size>1 1</size>
+  <origin>0 0</origin>
+  <pos>0 0</pos>
+  <path>./../inc/helpbar/underlays/help-underlay7.png</path>
+  <zIndex>200</zIndex>
+</image>
+
+<image name="help_bubble_on_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_swapped" extra="true">
+  <size>1 1</size>
+  <origin>0 0</origin>
+  <pos>0 0</pos>
+  <path>./../inc/helpbar/underlays/help-underlay5.png</path>
+  <visible ifSubset="help_ui:bubble_on_unswapped">false</visible>
+  <zIndex>200</zIndex>
+</image>
+
+<image name="help_bubble_off_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_unswapped" extra="true">
+  <size>1 1</size>
+  <origin>0 0</origin>
+  <pos>0 0</pos>
+  <path>./../inc/helpbar/underlays/help-underlay6.png</path>
+  <visible ifSubset="help_ui:bubble_on_unswapped">false</visible>
+  <zIndex>200</zIndex>
+</image>
+
+<image name="help_bubble_off_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_swapped" extra="true">
+  <size>1 1</size>
+  <origin>0 0</origin>
+  <pos>0 0</pos>
+  <path>./../inc/helpbar/underlays/help-underlay3.png</path>
+  <visible ifSubset="help_ui:bubble_on_unswapped">false</visible>
+  <zIndex>200</zIndex>
+</image>
+
+    <image name="system_help_strip" ifHelpPrompts="true" ifSubset="help_ui:strip_small" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <path>./../inc/helpbar/underlays/help-underlay8.png</path>
+      <visible ifSubset="help_ui:bubble_on_unswapped">false</visible>
+      <zIndex>200</zIndex>
+    </image>
+
+    <image name="system_help_strip" ifHelpPrompts="true" ifSubset="help_ui:strip_large" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <path>./../inc/helpbar/underlays/help-underlay10.png</path>
+      <visible ifSubset="help_ui:bubble_on_unswapped">false</visible>
+      <zIndex>200</zIndex>
+    </image>
+
+    <image name="system_help_strip" ifHelpPrompts="true" ifSubset="help_ui:strip_medium" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <path>./../inc/helpbar/underlays/help-underlay11.png</path>
+      <visible ifSubset="help_ui:bubble_on_unswapped">false</visible>
+      <zIndex>200</zIndex>
+    </image>
+
+    <image name="system_help_strip" ifHelpPrompts="true" ifSubset="help_ui:bubble_off" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <path>./../inc/helpbar/underlays/help-underlay99.png</path>
+      <visible ifSubset="help_ui:bubble_on_unswapped">false</visible>
+      <zIndex>200</zIndex>
+    </image>
+
+  </view>
+
+<view name="detailed">
+<text name="md_lbl_releasedate,md_lbl_publisher">
+    <color>00000095</color>
+    <forceUppercase>1</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.03125 0.041666666666667</size>
+    <visible>false</visible>
+</text>
+
+<text name="md_publisher">
+    <color>00000095</color>
+    <forceUppercase>0</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.2 0.041666666666667</size>
+    <visible>false</visible>
+</text>
+
+<datetime name="md_releasedate">
+    <color>00000095</color>
+    <forceUppercase>0</forceUppercase>
+    <fontPath>./assets/fonts/RobotoCondensed-Bold.ttf</fontPath>
+    <fontSize>0.029166666666667</fontSize>
+    <size>0.1875 0.041666666666667</size>
+    <visible>false</visible>
+</datetime>
+
+<text name="md_publisher">
+    <pos>0.575 0.7</pos>
+         <autoScroll>horizontal</autoScroll>
+         <autoScrollSpeed>50</autoScrollSpeed>
+         <autoScrollDelay>0</autoScrollDelay>
+    <visible>false</visible>
+</text>
+
+
+<datetime name="md_releasedate">
+    <pos>0.84 0.7</pos>
+    <visible>false</visible>
+</datetime>
+
+      <image name="md_releasedate_icon" extra="true">
+         <path>./inc/images/icon-releasedate.svg</path>
+         <origin>0 0.5</origin>
+         <pos>0.794 0.72</pos>
+         <size>0.03125 0.041666666666667</size>
+         <color>00000095</color>
+         <storyboard event="activate">
+            <animation property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+         </storyboard>
+    <visible>false</visible>
+      </image>
+
+      <image name="md_publisher_icon" extra="true">
+         <path>./inc/images/icon-publisher.svg</path>
+         <origin>0 0.5</origin>
+         <pos>0.527 0.72</pos>
+         <size>0.03125 0.041666666666667</size>
+         <color>00000095</color>
+         <storyboard event="activate">
+            <animation property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+         </storyboard>
+    <visible>false</visible>
+      </image>
+  </view>
+
+  <view name="basic, detailed" ifSubset="tools:2.0">
+
+    <image name="toolsgamelist1" extra="true">
+      <size>1 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <zIndex>499</zIndex>
+      <path ifSubset="device:r36s">./../assets/wall/tools.png</path>
+      <path ifSubset="device:r36xx">./../assets/wall/r36xx.png</path> 
+      <path ifSubset="device:r36h">./../assets/wall/r36h.png</path>    
+      <path ifSubset="device:g350">./../assets/wall/g350.png</path>
+    </image>
+
+
+    <image name="toolsgamelist2" extra="true">
+      <size>1 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <zIndex>500</zIndex>
+      <path ifSubset="device:r36s">./../toolsgamelist.png</path>
+      <path ifSubset="device:r36xx">./../r36xxgamelist.png</path>
+      <path ifSubset="device:r36h">./../r36hgamelist.png</path>
+      <path ifSubset="device:g350">./../g350gamelist.png</path>
+      <storyboard>         
+         <animation event="activate" property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
+    </image>
+
+
+    <image name="logo">
+      <maxSize>0.35 0.425</maxSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.25 0.5</pos>
+      <horizontalAlignment>center</horizontalAlignment>
+      <verticalAlignment>center</verticalAlignment>
+      <path>./../assets/logos/${system.theme}.png</path>
+      <path>./../assets/logos/${system.theme}.svg</path>
+      <path>./../assets/logos/us/${system.theme}.png</path>
+      <path>./../assets/logos/us/${system.theme}.svg</path>
+      <path>./../assets/logos/${system.theme}-${lang}.png</path>
+      <path>./../assets/logos/${system.theme}-${lang}.svg</path>
+      <zIndex>501</zIndex>
+      <storyboard> 
+         <animation property="x" from="-.5" to="0.75"  begin="0" duration="350" mode="linear"/>          
+      </storyboard>
+    </image>
+
+    <textlist name="gamelist">
+      <size>0.50 0.82</size>
+      <origin>0 0</origin>
+      <pos>0 0.1</pos>
+      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontSize>0.035</fontSize>
+      <alignment>left</alignment>
+      <horizontalMargin>0.006</horizontalMargin>
+      <lineSpacing>1.5</lineSpacing>
+      <primaryColor>ffffff80</primaryColor>
+      <secondaryColor>ffffff80</secondaryColor>
+      <selectorColor>${selectorcolor}</selectorColor>
+      <selectedColor>ffffff</selectedColor>
+      <scrollSound>${soundScroll}</scrollSound>
+         <scrollbarColor>59595900</scrollbarColor>
+         <scrollbarSize>0.013</scrollbarSize>
+         <scrollbarCorner>.5</scrollbarCorner>
+         <scrollbarAlignment>outer left</scrollbarAlignment>
+      <storyboard> 
+         <animation property="x" from="-.73" to="0.02" duration="550" mode="easeOut"/>           
+         <animation event="activate" property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
+      </storyboard>
+      <zIndex>502</zIndex>
+    </textlist>
+
+    <helpsystem name="help">
+      <origin>0.5 0.5</origin>
+      <pos>-0.505 -0.96</pos>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontSize>0.027</fontSize>
+      <textColor>${colorWhite}</textColor>
+      <iconColor>${colorWhite}</iconColor>
+    </helpsystem>
+
+</view>
+
+</theme>
