@@ -56,6 +56,7 @@ Tested on nothing else.
     <include name="g350" displayName="G350"/>
     <include name="r36h" displayName="R36H"/>
     <include name="r36xx" displayName="R36XX"/>
+    <include name="r36splus" displayName="R36S Plus"/>
   </subset>
 
   <subset name="gamelist ui" displayName="Gamelist UI">
@@ -228,6 +229,14 @@ Tested on nothing else.
          <zIndex>2</zIndex>                 
          <path>./../assets/wall/r36xx.png</path>
          <path>./../assets/wall/r36xx.jpg</path>
+    </image>
+
+    <image name="background" ifSubset="device:r36splus" extra="true">
+         <origin>1 0.5</origin>
+         <pos>1 0.5</pos>
+         <maxSize>10 1</maxSize>
+         <zIndex>2</zIndex>                 
+         <path>./../assets/wall/r36splus.png</path>
     </image>
 
 

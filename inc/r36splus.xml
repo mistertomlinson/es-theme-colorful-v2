@@ -11,8 +11,7 @@
                   <loop>true</loop>
                   <zIndex>8</zIndex>      
                   <effect>none</effect>           
-                  <path>./../assets/videos/retropie.mp4</path>
-                  <path>./../assets/videos/retropie.m4v</path>
+                  <path>./../assets/videos/r36splus.mp4</path>
             </video>
 
     <image name="background" extra="true">
@@ -20,8 +19,7 @@
          <pos>1 0.5</pos>
          <maxSize>10 1</maxSize>
          <zIndex>7</zIndex>                 
-         <path>./../assets/wall/retropie.png</path>
-         <path>./../assets/wall/retropie.jpg</path>
+         <path>./../assets/wall/r36splus.png</path>
     </image>  
    
     </view>
@@ -49,8 +47,7 @@
          <pos>0.5 0.5</pos>
          <maxSize>10 1</maxSize>
          <zIndex>22</zIndex>                 
-         <path>./../assets/wall/retropie.png</path>
-         <path>./../assets/wall/retropie.jpg</path>
+         <path>./../assets/wall/r36splus.png</path>
     </image> 
 
     <image name="background123" extra="true">
@@ -58,7 +55,7 @@
          <pos>0.5 0.5</pos>
          <maxSize>10 1</maxSize>
          <zIndex>23</zIndex>                 
-         <path>./../toolsgamelist.png</path>
+         <path>./../r36splusgamelist.png</path>
     </image> 
 
     <image name="logo">

@@ -56,6 +56,7 @@ Tested on nothing else.
     <include name="g350" displayName="G350"/>
     <include name="r36h" displayName="R36H"/>
     <include name="r36xx" displayName="R36XX"/>
+    <include name="r36splus" displayName="R36S Plus"/>
   </subset>
 
   <subset name="gamelist ui" displayName="Gamelist UI">

@@ -6,7 +6,7 @@
             <video name="system_video" extra="true">
                   <maxSize>10 1</maxSize>
          <origin>1 0.5</origin>
-         <pos>1 0.5</pos>
+         <pos>.999 0.5</pos>
                   <delay>0.3</delay>
                   <loop>true</loop>
                   <zIndex>8</zIndex>      

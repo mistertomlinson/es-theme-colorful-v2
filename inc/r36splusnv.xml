@@ -2,30 +2,15 @@
 <formatVersion>7</formatVersion>
 
     <view name="system">
-
-            <video name="system_video" extra="true">
-                  <maxSize>10 1</maxSize>
-         <origin>1 0.5</origin>
-         <pos>.999 0.5</pos>
-                  <delay>0.3</delay>
-                  <loop>true</loop>
-                  <zIndex>8</zIndex>      
-                  <effect>none</effect>           
-                  <path>./../assets/videos/retropie.mp4</path>
-                  <path>./../assets/videos/retropie.m4v</path>
-            </video>
-
     <image name="background" extra="true">
          <origin>1 0.5</origin>
          <pos>1 0.5</pos>
          <maxSize>10 1</maxSize>
          <zIndex>7</zIndex>                 
-         <path>./../assets/wall/retropie.png</path>
-         <path>./../assets/wall/retropie.jpg</path>
+         <path>./../assets/wall/r36splus.png</path>
     </image>  
    
     </view>
-
     <view name="detailed, basic">
 
     <image name="logo">
@@ -40,7 +25,7 @@
       <path>./../assets/logos/us/${system.theme}.svg</path>
       <path>./../assets/logos/${system.theme}-${lang}.png</path>
       <path>./../assets/logos/${system.theme}-${lang}.svg</path>
-      <zIndex>250</zIndex>
+      <zIndex>25</zIndex>
     </image>
 
 
@@ -49,8 +34,7 @@
          <pos>0.5 0.5</pos>
          <maxSize>10 1</maxSize>
          <zIndex>22</zIndex>                 
-         <path>./../assets/wall/retropie.png</path>
-         <path>./../assets/wall/retropie.jpg</path>
+         <path>./../assets/wall/r36splus.png</path>
     </image> 
 
     <image name="background123" extra="true">
@@ -58,7 +42,7 @@
          <pos>0.5 0.5</pos>
          <maxSize>10 1</maxSize>
          <zIndex>23</zIndex>                 
-         <path>./../toolsgamelist.png</path>
+         <path>./../r36splusgamelist.png</path>
     </image> 
 
     <image name="logo">

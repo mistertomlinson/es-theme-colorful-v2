@@ -254,6 +254,7 @@
       <path ifSubset="device:r36xx">./../assets/wall/r36xx.png</path> 
       <path ifSubset="device:r36h">./../assets/wall/r36h.png</path>    
       <path ifSubset="device:g350">./../assets/wall/g350.png</path>
+      <path ifSubset="device:r36splus">./../assets/wall/r36splus.png</path>
     </image>
 
 
@@ -266,6 +267,7 @@
       <path ifSubset="device:r36xx">./../r36xxgamelist.png</path>
       <path ifSubset="device:r36h">./../r36hgamelist.png</path>
       <path ifSubset="device:g350">./../g350gamelist.png</path>
+      <path ifSubset="device:r36splus">./../r36splusgamelist.png</path>
       <storyboard>         
          <animation event="activate" property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
       </storyboard>

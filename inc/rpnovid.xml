@@ -6,6 +6,7 @@
     <include name="g350" displayName="G350">./../inc/g350nv.xml</include>
     <include name="r36h" displayName="R36H">./../inc/r36hnv.xml</include>
     <include name="r36xx" displayName="R36XX">./../inc/r36xxnv.xml</include>
+    <include name="r36splus" displayName="R36S Plus">./../inc/r36splusnv.xml</include>
   </subset>
 
 <view name="detailed, basic">
