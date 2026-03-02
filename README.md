@@ -74,19 +74,28 @@ All assets and design elements from the original are used under **Fair Use** pri
 </a>
 <br><br><br>
 
-- **Game List UI Options**
+**Game List UI Options**
 
-</a>
-<a href="screenshots/dc_gamelist.png">
-  <img src="screenshots/dc_gamelist.png" alt="Game Selection" width="300" />
-</a>
-<a href="screenshots/Mangmi_PSP.png">
-  <img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="300" />
-</a>
-<a href="screenshots/Standard_PSP.png">
-  <img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="300" />
-</a>
-<br>Glass               Mangmi               Standard
+<div style="display: inline-block; text-align: center; margin: 10px;">
+  <a href="screenshots/dc_gamelist.png">
+    <img src="screenshots/dc_gamelist.png" alt="Dreamcast Game List" width="300" /><br>
+    <strong>Dreamcast Style</strong>
+  </a>
+</div>
+
+<div style="display: inline-block; text-align: center; margin: 10px;">
+  <a href="screenshots/Mangmi_PSP.png">
+    <img src="screenshots/Mangmi_PSP.png" alt="Mangmi PSP Game List" width="300" /><br>
+    <strong>Mangmi PSP Variant</strong>
+  </a>
+</div>
+
+<div style="display: inline-block; text-align: center; margin: 10px;">
+  <a href="screenshots/Standard_PSP.png">
+    <img src="screenshots/Standard_PSP.png" alt="Standard PSP Game List" width="300" /><br>
+    <strong>Standard PSP Layout</strong>
+  </a>
+</div>
 <br><br><br>
 
 ## Features
