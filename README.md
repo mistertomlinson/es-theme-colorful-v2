@@ -76,8 +76,8 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 **Game List UI Options**</a>
 
-<a href="screenshots/dc_gamelist.png">
-&nbsp;&nbsp;<img src="screenshots/dc_gamelist.png" alt="Game Selection" width="265" />
+<a href="screenshots/Glass_PSP.png">
+&nbsp;&nbsp;<img src="screenshots/Glass_PSP.png" alt="Game Selection" width="265" />
 </a>
 <a href="screenshots/Mangmi_PSP.png">
 &nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="265" />
