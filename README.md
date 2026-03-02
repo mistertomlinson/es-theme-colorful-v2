@@ -89,26 +89,17 @@ All assets and design elements from the original are used under **Fair Use** pri
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mangmi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard
 <br><br><br>
 
-## Features
+## Pan4ELEC Specific Features
 
-- Vibrant color scheme with platform-specific flair
-- Clean, modern layout adapted from the original BigBox theme
-- Supports box art, screenshots, and metadata scraping
-- Gamepad-friendly navigation
-- Minimal performance impact on R36S-class hardware
-
-## Known Issues / Limitations
-
-- Some very large artwork packs may cause slowdowns (use optimized media)
-- Not all original BigBox animations carried over due to ES limitations
-- Tested primarily on R36S; report issues for other devices!
+- Scrollbars
+- Storyboards which make element animations possible. For example, the "Dynamic Description" feature in P4E uses storyboards to expand the description and move it further up the screen when the box art fades out video plays. The ensures that there is no empty space on the screen at any point (of course some system views have different size box art and video resolutions, so it does not work perfectly for those. Consider your Favorites folder which could contain many different consoles). This is not available in ArkOS.
 
 ## Contributing
 
 Pull requests welcome! Especially for:
-- Bug fixes on other CFWs
-- Additional resolution tweaks
-- Variant modes (e.g., more contrast for outdoor play)
+- Bug fixes
+- Additional system views (or improve exisiting as I have not updated every system view from the original modified Colorful Theme)
+- Devices for Tools screen
 
 ## License
 
