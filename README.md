@@ -19,7 +19,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 ## Key Adaptations for Handhelds
 
-- Optimized for **640x480** resolution (native R36S screen) and 1:1 aspect ratios – no stretching or black bars issues
+- Optimized for **640x480** resolution (native R36S screen) but other aspect ratios work – no stretching or black bars issues
 - Scaled down fonts, layouts, and assets to remain readable and performant on small/low-res screens
 - Retained the core colorful, elegant style with vibrant platform/system highlights
 - Adjusted views (system select, game list, details) to fit handheld navigation
