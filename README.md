@@ -24,8 +24,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 - Retained the core colorful, elegant style with vibrant platform/system highlights
 - Adjusted views (system select, game list, details) to fit handheld navigation
 
-## Screenshots
-(all screenshots show Pan4ELEC)
+## Screenshots (pan4ELEC)
 
 - **System Selection Screen**  
 <a href="screenshots/Arcade_system.png">
