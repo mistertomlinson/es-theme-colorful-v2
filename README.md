@@ -76,27 +76,27 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 **Game List UI Options**
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin: 20px 0;">
+<div style="display: flex; justify-content: center; gap: 40px; margin: 30px 0; flex-wrap: nowrap;">
   
-  <div style="text-align: center;">
+  <div style="text-align: center; flex: 1; max-width: 320px;">
     <a href="screenshots/dc_gamelist.png">
-      <img src="screenshots/dc_gamelist.png" alt="Dreamcast Game List" width="300" style="display: block; margin: 0 auto 8px auto;" />
+      <img src="screenshots/dc_gamelist.png" alt="Dreamcast Game List" width="300" style="display: block; margin: 0 auto 10px auto;" />
     </a>
-    <div style="font-weight: bold;">Dreamcast Style</div>
+    <div style="color: white; font-weight: bold;">Dreamcast Style</div>
   </div>
   
-  <div style="text-align: center;">
+  <div style="text-align: center; flex: 1; max-width: 320px;">
     <a href="screenshots/Mangmi_PSP.png">
-      <img src="screenshots/Mangmi_PSP.png" alt="Mangmi PSP Game List" width="300" style="display: block; margin: 0 auto 8px auto;" />
+      <img src="screenshots/Mangmi_PSP.png" alt="Mangmi PSP Game List" width="300" style="display: block; margin: 0 auto 10px auto;" />
     </a>
-    <div style="font-weight: bold;">Mangmi PSP</div>
+    <div style="color: white; font-weight: bold;">Mangmi PSP</div>
   </div>
   
-  <div style="text-align: center;">
+  <div style="text-align: center; flex: 1; max-width: 320px;">
     <a href="screenshots/Standard_PSP.png">
-      <img src="screenshots/Standard_PSP.png" alt="Standard PSP Game List" width="300" style="display: block; margin: 0 auto 8px auto;" />
+      <img src="screenshots/Standard_PSP.png" alt="Standard PSP Game List" width="300" style="display: block; margin: 0 auto 10px auto;" />
     </a>
-    <div style="font-weight: bold;">Standard PSP</div>
+    <div style="color: white; font-weight: bold;">Standard PSP</div>
   </div>
 
 </div>
