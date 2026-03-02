@@ -9,29 +9,50 @@
  <include name="small" displayName="large"/>
 </subset>
 
-  <view name="detailed" extra="true">
+<view name="detailed" extra="true">
+
+
     <image name="background" extra="true">
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
       <zIndex>1</zIndex>
-      <path>${imageBlank}</path>
-      <color>${backcolor}</color>
+         <path>./../../assets/gamelist_wall/${system.theme}.png</path>
+         <path>./../../assets/gamelist_wall/${system.theme}.jpg</path>
     </image>
 
-    <image name="gamelist_background" extra="true">
-      <size>0.5 1</size>
-      <origin>0.5 0</origin>
-      <pos>0.25 0.0</pos>
+    <image name="gamelist_gradient" extra="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
+      <zIndex>4</zIndex>
+         <path>./../../assets/gamelist_gradient/${system.theme}.png</path>
+    </image>
+
+    <image name="background_lines" extra="true" ifHelpPrompts="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
       <zIndex>5</zIndex>
-      <path>${imageBlank}</path>
-      <color>313536</color> <!-- Dark grey -->
+         <path>./../../assets/lines_wall/lines.png</path>
+      <storyboard> 
+         <animation property="y" from="1.5" begin="0" duration="450" mode="easeOut"/>           
+         <animation event="activate" property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
+      </storyboard>
+    </image>
+
+    <image name="background_lines" extra="true" ifHelpPrompts="false">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0.025</pos>
+      <zIndex>5</zIndex>
+         <path>./../../assets/lines_wall/lines_false.png</path>
     </image>
 
     <image name="logo">
-      <maxSize>0.45 0.10</maxSize>
+      <maxSize>0.2 0.10</maxSize>
       <origin>0.5 0.5</origin>
-      <pos>0.25 0.095</pos>
+      <pos>0.145 0.095</pos>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
       <path>./../assets/logos/${system.theme}.png</path>
@@ -42,51 +63,44 @@
       <path>./../assets/logos/${system.theme}-${lang}.svg</path>
     </image>
 
-    <textlist name="gamelist">
+    <textlist name="gamelist" ifSubset="compatibility:pan4elec">
       <size>0.50 0.75</size>  <!--  <size>0.60 0.675</size> -->
       <origin>0 0</origin>
       <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <alignment>left</alignment>
-      <horizontalMargin>0.015</horizontalMargin>
-      <lineSpacing>1.385</lineSpacing>
-      <primaryColor>${colorWhite}</primaryColor>
-      <secondaryColor>${colorWhite}</secondaryColor>
+      <lineSpacing>2</lineSpacing>
+      <primaryColor>ffffff80</primaryColor>
+      <secondaryColor>ffffff80</secondaryColor>
       <selectorColor>${selectorcolor}</selectorColor>
-      <selectedColor>${selectedcolor}</selectedColor>
+      <selectedColor>ffffff</selectedColor>
+      <fadeScroll>true</fadeScroll>
       <scrollSound>${soundScroll}</scrollSound>
-         <scrollbarColor>${gameListScrollbarColor}</scrollbarColor>
-         <scrollbarSize>0.015</scrollbarSize>
-         <scrollbarCorner>.5</scrollbarCorner>
-         <scrollbarAlignment>outer right</scrollbarAlignment>
+         <scrollbarColor>ffffff30</scrollbarColor>
+         <scrollbarSize>0.004</scrollbarSize>
+         <scrollbarCorner>0</scrollbarCorner>
+         <scrollbarAlignment>left</scrollbarAlignment>
       <storyboard> 
          <animation property="y" from="1.5" begin="0" duration="450" mode="easeOut"/>           
          <animation event="activate" property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
       </storyboard>
+      <zIndex>3</zIndex>
+      <selectorImagePath>./../assets/images/selector.png</selectorImagePath>
     </textlist>
 
-      <image name="gamelist-mask" extra="true">
-         <path>${imageBlank}</path>
-         <origin>1 0</origin>
-         <pos>0.5 0</pos>
-         <size>0.1 1</size>
-         <tile>true</tile>
-         <gradientType>horizontal</gradientType>
-         <color>31353600</color>
-         <colorEnd>313536</colorEnd>
-         <zIndex>20</zIndex>
-      </image>
-
-
     <textlist name="gamelist" ifHelpPrompts="false">
-      <size>0.50 0.79</size>
-      <fontSize>0.035</fontSize>
-      <pos>0 0.1925</pos>
+      <size>0.445 0.87</size>
+      <fontSize>0.03</fontSize>
+      <pos>0.009 0.168</pos>
+      <lineSpacing>3.3</lineSpacing>
+      <horizontalMargin>.05</horizontalMargin>
     </textlist>
 
     <textlist name="gamelist" ifHelpPrompts="true">
-      <size>0.50 0.729</size>
-      <fontSize>0.036</fontSize>
-      <pos>0 0.175</pos>
+      <size>0.445 0.785</size>
+      <fontSize>0.03</fontSize>
+      <pos>0.009 0.174</pos>
+      <lineSpacing>3</lineSpacing>
+      <horizontalMargin>.05</horizontalMargin>
     </textlist>
 
      <text ifSubset="box_art_size:small" name="md_description" ifHelpPrompts="true">
@@ -168,17 +182,10 @@
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
       <lineSpacing>1.1</lineSpacing>
-      <size>0.45 0.125</size>
+      <size>0.45 0.255</size>
       <origin>0.5 0</origin>
-      <pos>0.75 0.766</pos>
+      <pos>0.75 0.65</pos>
 
-    <storyboard event="activate">
-
-        <!-- start moving first -->
-        <animation property="y" to="0.64" duration="250" begin="2500" mode="easeOut"/>
-        <animation property="size" to="0.45 0.255" duration="400" begin="2500" mode="easeOut"/>
-
-    </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
 </storyboard>
@@ -194,17 +201,10 @@
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
       <lineSpacing>1.1</lineSpacing>
-      <size>0.45 0.165</size>
+      <size>0.45 0.29</size>
       <origin>0.5 0</origin>
-      <pos>0.75 0.766</pos>
+      <pos>0.75 0.65</pos>
 
-    <storyboard event="activate">
-
-        <!-- start moving first -->
-        <animation property="y" to="0.64" duration="250" begin="2500" mode="easeOut"/>
-        <animation property="size" to="0.45 0.29" duration="400" begin="2500" mode="easeOut"/>
-
-    </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
 </storyboard>
@@ -434,34 +434,29 @@
 </datetime>
 
 <text name="md_publisher">
-    <pos>0.575 0.7</pos>
+    <pos>0.575 0.574</pos>
          <autoScroll>horizontal</autoScroll>
          <autoScrollSpeed>50</autoScrollSpeed>
          <autoScrollDelay>0</autoScrollDelay>
-<storyboard>
-        <animation property="y" to=".569" duration="350" begin="2500" mode="easeOut"/>
-  </storyboard>
+
 <zIndex>19</zIndex>
 </text>
 
 
 <datetime name="md_releasedate">
-    <pos>0.84 0.7</pos>
-<storyboard>
-        <animation property="y" to=".569" duration="350" begin="2500" mode="easeOut"/>
-  </storyboard>
+    <pos>0.84 0.574</pos>
+
 <zIndex>19</zIndex>
 </datetime>
 
       <image name="md_releasedate_icon" extra="true">
          <path>./../inc/images/icon-releasedate.svg</path>
          <origin>0 0.5</origin>
-         <pos>0.794 0.72</pos>
+         <pos>0.794 0.594</pos>
          <size>0.03125 0.041666666666667</size>
          <color>ffffff</color>
          <storyboard event="activate">
             <animation property="opacity" from="0" to="1" duration="1" mode="easeOut"/>
-        <animation property="y" to=".589" duration="350" begin="2500" mode="easeOut"/>
          </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -472,12 +467,11 @@
       <image name="md_publisher_icon" extra="true">
          <path>./../inc/images/icon-publisher.svg</path>
          <origin>0 0.5</origin>
-         <pos>0.527 0.72</pos>
+         <pos>0.527 0.594</pos>
          <size>0.03125 0.041666666666667</size>
          <color>ffffff</color>
          <storyboard event="activate">
             <animation property="opacity" from="0" to="1" duration="1" mode="easeOut"/>
-        <animation property="y" to=".589" duration="350" begin="2500" mode="easeOut"/>
          </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -525,8 +519,8 @@
     <video ifSubset="box_art_size:dynamic_description" name="md_video" extra="true">
       <path>{game:video}</path>
       <maxSize>0.4567 0.598</maxSize>
-      <origin>0.5 0</origin>
-      <pos>0.751 0.07</pos>
+      <origin>0.5 1</origin>
+      <pos>0.751 0.53</pos>
       <delay>2</delay>
       <effect>none</effect>
       <loop>true</loop>
@@ -534,7 +528,7 @@
       <showSnapshotDelay>true</showSnapshotDelay>
       <zIndex>18</zIndex>
 <storyboard event="activate">
-  <animation property="h" to=".462" duration="100" begin="2600" mode="linear"/>
+  <animation property="opacity" to="1" duration="1" mode="linear"/>
 </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="250" mode="linear"/>
@@ -559,37 +553,36 @@
   </image>
 
   <image ifSubset="box_art_size:dynamic_description" name="no_video_mask" extra="true">
-      <size>.5 1</size>
-      <origin>1 .5</origin>
-      <pos>1 .5</pos>
-      <path>${imageBlank}</path>
-      <color>${backcolor}</color>
+      <path>./../assets/gamelist_no_video/${system.theme}.png</path>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0</pos>
       <zIndex>19</zIndex>
       <visible>!exists({game:video})</visible>
   </image>
   </view>
-__________
+
+_________
 
   <view name="basic" extra="true">
 
-    <image name="gamelist_edge" extra="true">
-      <size>.02 1</size>
-      <origin>0 0</origin>
-      <pos>0.983 0</pos>
-      <zIndex>600</zIndex>
-      <path>${imageBlank}</path>
-      <color>313536</color>
-     </image>
-      
+       <image name="bgFallback" extra="true">
+       <pos>0 0</pos>
+       <size>1 1</size>
+       <zIndex>0</zIndex>
+       <path>./../assets/wall/${system.theme}.png</path>
+       <path>./../assets/wall/${system.theme}.jpg</path>
+       </image>
 
-    <image name="gamelist_background" extra="true">
+    <image name="background" extra="true">
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
-      <zIndex>5</zIndex>
-      <path>${imageBlank}</path>
-      <color>313536</color> <!-- Dark grey -->
+      <zIndex>1</zIndex>
+         <path>./../assets/gamelist_wall/${system.theme}.png</path>
+         <path>./../assets/gamelist_wall/${system.theme}.jpg</path>
     </image>
+    
 
     <image name="logo">
       <maxSize>0.35 0.425</maxSize>
@@ -606,43 +599,53 @@ __________
       <zIndex>6</zIndex>
     </image>
 
+    <image name="background_lines" extra="true" ifHelpPrompts="true">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0.07</pos>
+      <zIndex>5</zIndex>
+      <path>./../assets/lines_wall/p4e_lines_right.png</path>
+    </image>
 
-
+    <image name="background_lines" extra="true" ifHelpPrompts="false">
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <pos>0 0.09</pos>
+      <zIndex>5</zIndex>
+      <path>./../assets/lines_wall/p4e_lines_right.png</path>
+    </image>
 
     <textlist name="gamelist" ifHelpPrompts="false">
-      <size>0.50 0.82</size>
-      <fontSize>0.035</fontSize>
-      <pos>0.496 0.11</pos>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <alignment>right</alignment>
-      <fadeScroll>true</fadeScroll>
-      <primaryColor>${colorWhite}</primaryColor>
-      <secondaryColor>${colorWhite}</secondaryColor>
+      <lineSpacing>3</lineSpacing>
+      <size>0.43 0.79</size>
+      <fontSize>0.03</fontSize>
+      <pos>0.525 0.15</pos>
+      <primaryColor>ffffff80</primaryColor>
+      <secondaryColor>ffffff80</secondaryColor>
       <selectorColor>${selectorcolor}</selectorColor>
-      <selectedColor>${selectedcolor}</selectedColor>
+      <selectedColor>ffffff</selectedColor>
+      <fadeScroll>true</fadeScroll>
       <scrollSound>${soundScroll}</scrollSound>
-      <storyboard> 
-         <animation property="y" from="1.5" begin="0" duration="450" mode="easeOut"/>           
-         <animation event="activate" property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
-      </storyboard>
     </textlist>
 
     <textlist name="gamelist" ifHelpPrompts="true">
-      <size>0.50 0.756</size>
-      <fontSize>0.036</fontSize>
-      <pos>0.496 0.12</pos>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <alignment>right</alignment>
-      <fadeScroll>true</fadeScroll>
-      <primaryColor>${colorWhite}</primaryColor>
-      <secondaryColor>${colorWhite}</secondaryColor>
+      <lineSpacing>3</lineSpacing>
+      <size>0.43 0.79</size>
+      <fontSize>0.03</fontSize>
+      <pos>0.525 0.13</pos>
+      <primaryColor>ffffff80</primaryColor>
+      <secondaryColor>ffffff80</secondaryColor>
       <selectorColor>${selectorcolor}</selectorColor>
-      <selectedColor>${selectedcolor}</selectedColor>
+      <selectedColor>ffffff</selectedColor>
+      <fadeScroll>true</fadeScroll>
       <scrollSound>${soundScroll}</scrollSound>
-      <storyboard> 
-         <animation property="y" from="1.5" begin="0" duration="450" mode="easeOut"/>           
-         <animation event="activate" property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
-      </storyboard>
-    </textlist>
 
-  </view>
+    </textlist>
+ </view>
+
 
 </theme>

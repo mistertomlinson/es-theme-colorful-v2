@@ -163,20 +163,20 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="true">
       <alignment>left</alignment>
-      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
       <lineSpacing>1.1</lineSpacing>
-      <size>0.45 0.125</size>
+      <size>0.45 0.17</size>
       <origin>0.5 0</origin>
-      <pos>0.75 0.766</pos>
+      <pos>0.75 0.735</pos>
 
     <storyboard event="activate">
 
         <!-- start moving first -->
-        <animation property="y" to="0.64" duration="250" begin="2500" mode="easeOut"/>
-        <animation property="size" to="0.45 0.255" duration="400" begin="2500" mode="easeOut"/>
+        <animation property="y" to="0.78" duration="250" begin="2500" mode="easeOut"/>
+        <animation property="size" to="0.45 0.13" duration="400" begin="2500" mode="easeOut"/>
 
     </storyboard>
 <storyboard event="deactivate">
@@ -189,20 +189,20 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="false">
       <alignment>left</alignment>
-      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
       <lineSpacing>1.1</lineSpacing>
-      <size>0.45 0.165</size>
+      <size>0.45 0.21</size>
       <origin>0.5 0</origin>
-      <pos>0.75 0.766</pos>
+      <pos>0.75 0.735</pos>
 
     <storyboard event="activate">
 
         <!-- start moving first -->
-        <animation property="y" to="0.64" duration="250" begin="2500" mode="easeOut"/>
-        <animation property="size" to="0.45 0.29" duration="400" begin="2500" mode="easeOut"/>
+        <animation property="y" to="0.78" duration="250" begin="2500" mode="easeOut"/>
+        <animation property="size" to="0.45 0.165" duration="400" begin="2500" mode="easeOut"/>
 
     </storyboard>
 <storyboard event="deactivate">
@@ -434,21 +434,21 @@
 </datetime>
 
 <text name="md_publisher">
-    <pos>0.575 0.7</pos>
+    <pos>0.575 0.66</pos>
          <autoScroll>horizontal</autoScroll>
          <autoScrollSpeed>50</autoScrollSpeed>
          <autoScrollDelay>0</autoScrollDelay>
 <storyboard>
-        <animation property="y" to=".569" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".71" duration="250" begin="2500" mode="easeOut"/>
   </storyboard>
 <zIndex>19</zIndex>
 </text>
 
 
 <datetime name="md_releasedate">
-    <pos>0.84 0.7</pos>
+    <pos>0.84 0.66</pos>
 <storyboard>
-        <animation property="y" to=".569" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".71" duration="250" begin="2500" mode="easeOut"/>
   </storyboard>
 <zIndex>19</zIndex>
 </datetime>
@@ -456,12 +456,12 @@
       <image name="md_releasedate_icon" extra="true">
          <path>./../inc/images/icon-releasedate.svg</path>
          <origin>0 0.5</origin>
-         <pos>0.794 0.72</pos>
+         <pos>0.794 0.68</pos>
          <size>0.03125 0.041666666666667</size>
          <color>ffffff</color>
          <storyboard event="activate">
             <animation property="opacity" from="0" to="1" duration="1" mode="easeOut"/>
-        <animation property="y" to=".589" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".73" duration="250" begin="2500" mode="easeOut"/>
          </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -472,12 +472,12 @@
       <image name="md_publisher_icon" extra="true">
          <path>./../inc/images/icon-publisher.svg</path>
          <origin>0 0.5</origin>
-         <pos>0.527 0.72</pos>
+         <pos>0.527 0.68</pos>
          <size>0.03125 0.041666666666667</size>
          <color>ffffff</color>
          <storyboard event="activate">
             <animation property="opacity" from="0" to="1" duration="1" mode="easeOut"/>
-        <animation property="y" to=".589" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".73" duration="250" begin="2500" mode="easeOut"/>
          </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -534,7 +534,7 @@
       <showSnapshotDelay>true</showSnapshotDelay>
       <zIndex>18</zIndex>
 <storyboard event="activate">
-  <animation property="h" to=".462" duration="100" begin="2600" mode="linear"/>
+  <animation property="opacity" to="1" duration="1" mode="linear"/>
 </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="250" mode="linear"/>

@@ -19,7 +19,7 @@ Tested on nothing else.
 
   <subset name="compatibility" displayName="OS Compatibility">
     <include name="arkos" displayName="ArkOS">./../inc/helpbar/arkoshelpext.xml</include>
-    <include name="pan4elec" displayName="Pan4ELEC">./../inc/helpbar/pan4elechelpVB.xml</include>
+    <include name="pan4elec" displayName="Pan4ELEC">./../inc/helpbar/pan4elechelpGAW.xml</include>
   </subset>
 
 <subset name="help_ui" displayName="Help UI">

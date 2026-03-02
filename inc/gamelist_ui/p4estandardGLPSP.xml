@@ -163,7 +163,7 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="true">
       <alignment>left</alignment>
-      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -175,7 +175,7 @@
     <storyboard event="activate">
 
         <!-- start moving first -->
-        <animation property="y" to="0.64" duration="250" begin="2500" mode="easeOut"/>
+        <animation property="y" to="0.61" duration="350" begin="2500" mode="easeOut"/>
         <animation property="size" to="0.45 0.255" duration="400" begin="2500" mode="easeOut"/>
 
     </storyboard>
@@ -189,7 +189,7 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="false">
       <alignment>left</alignment>
-      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -201,8 +201,8 @@
     <storyboard event="activate">
 
         <!-- start moving first -->
-        <animation property="y" to="0.64" duration="250" begin="2500" mode="easeOut"/>
-        <animation property="size" to="0.45 0.29" duration="400" begin="2500" mode="easeOut"/>
+        <animation property="y" to="0.61" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="size" to="0.45 0.33" duration="400" begin="2500" mode="easeOut"/>
 
     </storyboard>
 <storyboard event="deactivate">
@@ -439,7 +439,7 @@
          <autoScrollSpeed>50</autoScrollSpeed>
          <autoScrollDelay>0</autoScrollDelay>
 <storyboard>
-        <animation property="y" to=".569" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".519" duration="350" begin="2500" mode="easeOut"/>
   </storyboard>
 <zIndex>19</zIndex>
 </text>
@@ -448,7 +448,7 @@
 <datetime name="md_releasedate">
     <pos>0.84 0.7</pos>
 <storyboard>
-        <animation property="y" to=".569" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".519" duration="350" begin="2500" mode="easeOut"/>
   </storyboard>
 <zIndex>19</zIndex>
 </datetime>
@@ -461,7 +461,7 @@
          <color>ffffff</color>
          <storyboard event="activate">
             <animation property="opacity" from="0" to="1" duration="1" mode="easeOut"/>
-        <animation property="y" to=".589" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".539" duration="350" begin="2500" mode="easeOut"/>
          </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -477,7 +477,7 @@
          <color>ffffff</color>
          <storyboard event="activate">
             <animation property="opacity" from="0" to="1" duration="1" mode="easeOut"/>
-        <animation property="y" to=".589" duration="350" begin="2500" mode="easeOut"/>
+        <animation property="y" to=".539" duration="350" begin="2500" mode="easeOut"/>
          </storyboard>
 <storyboard event="deactivate">
   <animation property="opacity" to="0" duration="1" mode="linear"/>
@@ -525,8 +525,8 @@
     <video ifSubset="box_art_size:dynamic_description" name="md_video" extra="true">
       <path>{game:video}</path>
       <maxSize>0.4567 0.598</maxSize>
-      <origin>0.5 0</origin>
-      <pos>0.751 0.07</pos>
+      <origin>0.5 .22</origin>
+      <pos>0.751 0.2</pos>
       <delay>2</delay>
       <effect>none</effect>
       <loop>true</loop>
@@ -534,10 +534,11 @@
       <showSnapshotDelay>true</showSnapshotDelay>
       <zIndex>18</zIndex>
 <storyboard event="activate">
-  <animation property="h" to=".462" duration="100" begin="2600" mode="linear"/>
+  <animation property="h" to=".345" duration="100" begin="2600" mode="linear"/>
 </storyboard>
+
 <storyboard event="deactivate">
-  <animation property="opacity" to="0" duration="250" mode="linear"/>
+  <animation property="opacity" to="0" duration="350" mode="linear"/>
 </storyboard>
   </video>
 
