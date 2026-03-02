@@ -26,7 +26,9 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 ## Screenshots
 
-- **System Selection Screen**  
+- **System Selection Screen**
+
+</a>
 <a href="screenshots/Arcade_system.png">
   <img src="screenshots/Arcade_system.png" alt="System Selection" width="300" />
 </a>
@@ -35,10 +37,12 @@ All assets and design elements from the original are used under **Fair Use** pri
 </a>
 <a href="screenshots/PSP_system.png">
   <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
-</a>
-
+</a>  
+<br><br><br>
 
 - **Game List View**
+
+</a>
 <a href="screenshots/Arcade_gamelist.png">
   <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
 </a>
@@ -48,8 +52,11 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/PS_gamelist.png">
   <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="300" />
 </a>
+<br><br><br>
 
-- **Customizable Tools Screen**  
+- **Customizable Tools Screen**
+  
+</a>
 <a href="screenshots/u_screenshot_022.png">
   <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="300" />
 </a>
@@ -65,27 +72,34 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/u_screenshot_026.png">
   <img src="screenshots/u_screenshot_026.png" alt="Game Selection3" width="300" />
 </a>
+<br><br><br>
 
-## Features
+**Game List UI Options**</a>
 
-- Vibrant color scheme with platform-specific flair
-- Clean, modern layout adapted from the original BigBox theme
-- Supports box art, screenshots, and metadata scraping
-- Gamepad-friendly navigation
-- Minimal performance impact on R36S-class hardware
+<a href="screenshots/dc_gamelist.png">
+&nbsp;&nbsp;<img src="screenshots/dc_gamelist.png" alt="Game Selection" width="300" />
+</a>
+<a href="screenshots/Mangmi_PSP.png">
+&nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="300" />
+</a>
+<a href="screenshots/Standard_PSP.png">
+&nbsp;&nbsp;<img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="300" />
+</a>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mangmi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard
+<br><br><br>
 
-## Known Issues / Limitations
+## Pan4ELEC Specific Features
 
-- Some very large artwork packs may cause slowdowns (use optimized media)
-- Not all original BigBox animations carried over due to ES limitations
-- Tested primarily on R36S; report issues for other devices!
+- Scrollbars
+- Storyboards which make element animations possible. For example, the "Dynamic Description" feature in P4E uses storyboards to expand the description and move it further up the screen when the box art fades out video plays. The ensures that there is no empty space on the screen at any point (of course some system views have different size box art and video resolutions, so it does not work perfectly for those. Consider your Favorites folder which could contain many different consoles). This is not available in ArkOS.
 
 ## Contributing
 
 Pull requests welcome! Especially for:
-- Bug fixes on other CFWs
-- Additional resolution tweaks
-- Variant modes (e.g., more contrast for outdoor play)
+- Bug fixes
+- Additional system views (or improve exisiting as I have not updated every system view from the original modified Colorful Theme)
+- Devices for Tools screen
 
 ## License
 
