@@ -1,4 +1,4 @@
-# Colorful ES - R36S / Low-Res Edition
+# Colorful v2
 
 A lightweight, colorful EmulationStation theme adapted for small-screen handheld devices like the **R36S** (640x480 resolution) and other 1:1 aspect ratio screens. It brings the vibrant, modern aesthetic of the popular **COLORFUL BigBox Theme** to retro handhelds running EmulationStation.
 
@@ -26,10 +26,16 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 ## Screenshots
 
-(Add your screenshots here – recommended: 3–6 images showing key views)
-
 - **System Selection Screen**  
-  ![System Selection](screenshots/Arcade_system.png) ![System Selection](screenshots/PSP_system.png) ![System Selection](screenshots/SS_System.png)
+<a href="screenshots/Arcade_system.png">
+  <img src="screenshots/Arcade_system.png" alt="System Selection" width="300" />
+</a>
+<a href="screenshots/ss_system.png">
+  <img src="screenshots/ss_system.png" alt="System Selection2" width="300" />
+</a>
+<a href="screenshots/PSP_system.png">
+  <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
+</a>
 
 - **Game List View**  
   ![Game List](screenshots/Arcade_gamelist.png) ![Game List](screenshots/PS_gamelist.png) ![Game List](screenshots/SS_gamelist.png)
