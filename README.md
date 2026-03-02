@@ -40,6 +40,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 
 - **Game List View**
+</a>
 <a href="screenshots/Arcade_gamelist.png">
   <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
 </a>
@@ -50,7 +51,8 @@ All assets and design elements from the original are used under **Fair Use** pri
   <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="300" />
 </a>
 
-- **Customizable Tools Screen**  
+- **Customizable Tools Screen**
+</a>
 <a href="screenshots/u_screenshot_022.png">
   <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="300" />
 </a>
