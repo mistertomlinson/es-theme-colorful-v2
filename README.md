@@ -106,7 +106,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 ## Pan4ELEC Specific Features
 
-<div align="center">
+<div align="left">
   <img src="screenshots/dyn_desc.gif" alt="Dynamic Description" width="300" />
 </div>
 
