@@ -76,28 +76,16 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 **Game List UI Options**
 
-<table border="0" cellpadding="0" cellspacing="0" style="border: none !important; border-collapse: collapse; width: 100%; margin: 30px 0;">
-  <tr style="border: none;">
-    <td align="center" valign="top" style="padding: 0 25px; border: none !important; outline: none; box-shadow: none;">
-      <a href="screenshots/dc_gamelist.png" style="border: none; outline: none;">
-        <img src="screenshots/dc_gamelist.png" alt="Glass" width="300" style="display: block; margin: 0 auto 10px auto; border: 0 !important; outline: none !important; box-shadow: none !important; padding: 0; background: transparent;" />
-      </a>
-      <div style="color: white; font-weight: bold; margin-top: 5px;">Glass</div>
-    </td>
-    <td align="center" valign="top" style="padding: 0 25px; border: none !important; outline: none; box-shadow: none;">
-      <a href="screenshots/Mangmi_PSP.png" style="border: none; outline: none;">
-        <img src="screenshots/Mangmi_PSP.png" alt="Mangmi" width="300" style="display: block; margin: 0 auto 10px auto; border: 0 !important; outline: none !important; box-shadow: none !important; padding: 0; background: transparent;" />
-      </a>
-      <div style="color: white; font-weight: bold; margin-top: 5px;">Mangmi</div>
-    </td>
-    <td align="center" valign="top" style="padding: 0 25px; border: none !important; outline: none; box-shadow: none;">
-      <a href="screenshots/Standard_PSP.png" style="border: none; outline: none;">
-        <img src="screenshots/Standard_PSP.png" alt="Standard" width="300" style="display: block; margin: 0 auto 10px auto; border: 0 !important; outline: none !important; box-shadow: none !important; padding: 0; background: transparent;" />
-      </a>
-      <div style="color: white; font-weight: bold; margin-top: 5px;">Standard</div>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="screenshots/dc_gamelist.png" width="300" style="margin: 0 20px 10px 0;" />
+  <br><span style="color: white; font-weight: bold;">Glass</span>
+
+  <img src="screenshots/Mangmi_PSP.png" width="300" style="margin: 0 20px 10px 20px;" />
+  <br><span style="color: white; font-weight: bold;">Mangmi</span>
+
+  <img src="screenshots/Standard_PSP.png" width="300" style="margin: 0 0 10px 20px;" />
+  <br><span style="color: white; font-weight: bold;">Standard</span>
+</div>
 <br><br><br>
 
 ## Features
