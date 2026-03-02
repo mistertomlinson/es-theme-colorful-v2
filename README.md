@@ -30,6 +30,9 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/Arcade_system.png">
   <img src="screenshots/Arcade_system.png" alt="System Selection" width="300" />
 </a>
+<a href="screenshots/ss_system.png">
+  <img src="screenshots/ss_system.png" alt="System Selection2" width="300" />
+</a>
 <a href="screenshots/PSP_system.png">
   <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
 </a>
