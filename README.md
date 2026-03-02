@@ -25,6 +25,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 - Adjusted views (system select, game list, details) to fit handheld navigation
 
 ## Screenshots
+(all screenshots show Pan4ELEC)
 
 - **System Selection Screen**  
 <a href="screenshots/Arcade_system.png">
@@ -38,7 +39,6 @@ All assets and design elements from the original are used under **Fair Use** pri
 </a>
 
 - **Game List View**
-
 <a href="screenshots/Arcade_gamelist.png.png">
   <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
 </a>
