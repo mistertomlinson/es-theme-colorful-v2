@@ -80,15 +80,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/dc_gamelist.png">
   <img src="screenshots/dc_gamelist.png" alt="Game Selection" width="300" />
 </a>
-Glass
 <a href="screenshots/Mangmi_PSP.png">
   <img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="300" />
 </a>
-Mangmi
 <a href="screenshots/Standard_PSP.png">
   <img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="300" />
 </a>
-Standard
+<br>Glass               Mangmi               Standard
 <br><br><br>
 
 ## Features
