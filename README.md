@@ -74,24 +74,19 @@ All assets and design elements from the original are used under **Fair Use** pri
 </a>
 <br><br><br>
 
-**Game List UI Options**
+**Game List UI Options**</a>
 
-<table border="0" cellpadding="0" cellspacing="0" style="border: none; width: 100%; margin: 30px 0;">
-  <tr>
-    <td align="center" style="padding: 0 25px; border: none;">
-      <img src="screenshots/dc_gamelist.png" alt="Glass" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
-      <div style="color: white; font-weight: bold;">Glass</div>
-    </td>
-    <td align="center" style="padding: 0 25px; border: none;">
-      <img src="screenshots/Mangmi_PSP.png" alt="Mangmi" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
-      <div style="color: white; font-weight: bold;">Mangmi</div>
-    </td>
-    <td align="center" style="padding: 0 25px; border: none;">
-      <img src="screenshots/Standard_PSP.png" alt="Standard" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
-      <div style="color: white; font-weight: bold;">Standard</div>
-    </td>
-  </tr>
-</table>
+<a href="screenshots/dc_gamelist.png">
+&nbsp;&nbsp;<img src="screenshots/dc_gamelist.png" alt="Game Selection" width="300" />
+</a>
+<a href="screenshots/Mangmi_PSP.png">
+&nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="300" />
+</a>
+<a href="screenshots/Standard_PSP.png">
+&nbsp;&nbsp;<img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="300" />
+</a>
+<br>
+'Glass                         Mangmi                          Standard'
 <br><br><br>
 
 ## Features
