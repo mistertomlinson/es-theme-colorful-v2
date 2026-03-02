@@ -1,6 +1,6 @@
 # Colorful v2
 
-A lightweight, colorful EmulationStation theme adapted for small-screen handheld devices like the **R36S** (640x480 resolution) and other 1:1 aspect ratio screens. It brings the vibrant, modern aesthetic of the popular **COLORFUL BigBox Theme** to retro handhelds running EmulationStation.
+A colorful EmulationStation theme adapted for small-screen handheld devices like the **R36S** (640x480 resolution) and other 1:1 aspect ratio screens. It brings the vibrant, modern aesthetic of the popular **COLORFUL BigBox Theme** to retro handhelds running EmulationStation.
 
 This theme is designed to be fully compatible with:
 - **ArkOS**
