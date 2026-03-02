@@ -163,7 +163,7 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="true">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -187,7 +187,7 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="false">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>

@@ -80,19 +80,6 @@
       </storyboard>
       <zIndex>3</zIndex>
     </textlist>
-    
-    <text name="md_description">
-      <alignment>left</alignment>
-      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
-      <fontSize>0.0275</fontSize>
-      <color>ffffff80</color>
-      <forceUppercase>false</forceUppercase>
-      <lineSpacing>1.5</lineSpacing>
-      <size>0.45 0.192</size>
-      <origin>0.5 0</origin>
-      <pos>0.74 0.73</pos>
-    </text>
-
 
     <textlist name="gamelist" ifHelpPrompts="false">
       <size>0.47 0.79</size>
@@ -101,17 +88,6 @@
       <horizontalMargin>0.03</horizontalMargin>
       <lineSpacing>1.385</lineSpacing>
     </textlist>
-     <text name="md_description" ifHelpPrompts="false">
-      <alignment>left</alignment>
-      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
-      <fontSize>0.0275</fontSize>
-      <color>ffffff80</color>
-      <forceUppercase>false</forceUppercase>
-      <lineSpacing>1.1</lineSpacing>
-      <size>0.45 0.205</size>
-      <origin>0.5 0</origin>
-      <pos>0.75 0.766</pos>
-    </text>
 
     <textlist name="gamelist" ifHelpPrompts="true">
       <size>0.47 0.729</size>
@@ -124,7 +100,7 @@
 
      <text ifSubset="box_art_size:small" name="md_description" ifHelpPrompts="true">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.032</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -136,7 +112,7 @@
 
      <text ifSubset="box_art_size:small" name="md_description" ifHelpPrompts="false">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.032</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -148,7 +124,7 @@
 
      <text ifSubset="box_art_size:medium" name="md_description" ifHelpPrompts="true">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.032</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -160,7 +136,7 @@
 
      <text ifSubset="box_art_size:medium" name="md_description" ifHelpPrompts="false">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.032</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -172,7 +148,7 @@
 
      <text ifSubset="box_art_size:large" name="md_description" ifHelpPrompts="true">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -184,7 +160,7 @@
 
      <text ifSubset="box_art_size:large" name="md_description" ifHelpPrompts="false">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -196,7 +172,7 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="true">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
@@ -222,7 +198,7 @@
 
      <text ifSubset="box_art_size:dynamic_description" name="md_description" ifHelpPrompts="false">
       <alignment>left</alignment>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
       <fontSize>0.0275</fontSize>
       <color>ffffff80</color>
       <forceUppercase>false</forceUppercase>
