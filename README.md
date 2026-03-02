@@ -75,32 +75,29 @@ All assets and design elements from the original are used under **Fair Use** pri
 <br><br><br>
 
 **Game List UI Options**
-**Game List UI Options**
 
-<div style="display: flex; justify-content: center; gap: 40px; margin: 30px 0; flex-wrap: nowrap;">
-  
-  <div style="text-align: center;">
-    <a href="screenshots/dc_gamelist.png">
-      <img src="screenshots/dc_gamelist.png" alt="Glass" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
-    </a>
-    <div style="color: white; font-weight: bold;">Glass</div>
-  </div>
-  
-  <div style="text-align: center;">
-    <a href="screenshots/Mangmi_PSP.png">
-      <img src="screenshots/Mangmi_PSP.png" alt="Mangmi" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
-    </a>
-    <div style="color: white; font-weight: bold;">Mangmi</div>
-  </div>
-  
-  <div style="text-align: center;">
-    <a href="screenshots/Standard_PSP.png">
-      <img src="screenshots/Standard_PSP.png" alt="Standard" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
-    </a>
-    <div style="color: white; font-weight: bold;">Standard</div>
-  </div>
-
-</div>
+<table border="0" cellpadding="0" cellspacing="0" style="border: none; width: 100%; margin: 30px 0;">
+  <tr>
+    <td align="center" style="padding: 0 20px; border: none;">
+      <a href="screenshots/dc_gamelist.png">
+        <img src="screenshots/dc_gamelist.png" alt="Glass" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
+      </a>
+      <div style="color: white; font-weight: bold;">Glass</div>
+    </td>
+    <td align="center" style="padding: 0 20px; border: none;">
+      <a href="screenshots/Mangmi_PSP.png">
+        <img src="screenshots/Mangmi_PSP.png" alt="Mangmi" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
+      </a>
+      <div style="color: white; font-weight: bold;">Mangmi</div>
+    </td>
+    <td align="center" style="padding: 0 20px; border: none;">
+      <a href="screenshots/Standard_PSP.png">
+        <img src="screenshots/Standard_PSP.png" alt="Standard" width="300" style="display: block; margin: 0 auto 10px auto; border: none;" />
+      </a>
+      <div style="color: white; font-weight: bold;">Standard</div>
+    </td>
+  </tr>
+</table>
 <br><br><br>
 
 ## Features
