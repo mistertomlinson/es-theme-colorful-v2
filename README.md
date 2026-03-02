@@ -110,7 +110,6 @@ All assets and design elements from the original are used under **Fair Use** pri
   <img src="screenshots/dyn_desc.gif" alt="Dynamic Description" width="300" />
 </div>
 
-&nbsp;&nbsp;  <!-- Optional extra horizontal space if needed; remove if not wanted -->
 
 - **Dynamic Descriptions**  
   Storyboards enable smooth element animations. For example, the "Dynamic Description" feature in Pan4ELEC uses storyboards to expand and reposition the description text higher on the screen as the box art fades out and the video starts playing. This keeps the screen layout filled with no empty space at any point. (Note: It works best on consistent box art/video sizes; mixed systems like Favorites folders may not be perfect due to varying resolutions.)  
