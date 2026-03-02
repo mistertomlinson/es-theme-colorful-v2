@@ -27,7 +27,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 ## Screenshots
 
 - **System Selection Screen**
-<br><br>
+<br>
 </a>
 <a href="screenshots/Arcade_system.png">
   <img src="screenshots/Arcade_system.png" alt="System Selection" width="300" />
@@ -38,9 +38,10 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/PSP_system.png">
   <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
 </a>  
-<br>
+<br><br>
 
 - **Game List View**
+<br>
 </a>
 <a href="screenshots/Arcade_gamelist.png">
   <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
@@ -51,8 +52,10 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/PS_gamelist.png">
   <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="300" />
 </a>
+<br><br>
 
 - **Customizable Tools Screen**
+<br>
 </a>
 <a href="screenshots/u_screenshot_022.png">
   <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="300" />
