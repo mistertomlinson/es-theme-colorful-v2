@@ -37,7 +37,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/PSP_system.png">
   <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
 </a>
-
+</a>
 
 - **Game List View**
 </a>
