@@ -30,13 +30,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 </a>
 <a href="screenshots/Arcade_system.png">
-  <img src="screenshots/Arcade_system.png" alt="System Selection" width="280" />
+  <img src="screenshots/Arcade_system.png" alt="System Selection" width="300" />
 </a>
 <a href="screenshots/ss_system.png">
-  <img src="screenshots/ss_system.png" alt="System Selection2" width="280" />
+  <img src="screenshots/ss_system.png" alt="System Selection2" width="300" />
 </a>
 <a href="screenshots/PSP_system.png">
-  <img src="screenshots/PSP_system.png" alt="System Selection3" width="280" />
+  <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
 </a>  
 <br><br><br>
 
@@ -44,13 +44,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 </a>
 <a href="screenshots/Arcade_gamelist.png">
-  <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="280" />
+  <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
 </a>
 <a href="screenshots/ss_gamelist.png">
-  <img src="screenshots/ss_gamelist.png" alt="Game Selection2" width="280" />
+  <img src="screenshots/ss_gamelist.png" alt="Game Selection2" width="300" />
 </a>
 <a href="screenshots/PS_gamelist.png">
-  <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="280" />
+  <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="300" />
 </a>
 <br><br><br>
 
@@ -58,32 +58,32 @@ All assets and design elements from the original are used under **Fair Use** pri
   
 </a>
 <a href="screenshots/u_screenshot_022.png">
-  <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="280" />
+  <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="300" />
 </a>
 <a href="screenshots/u_screenshot_023.png">
-  <img src="screenshots/u_screenshot_023.png" alt="Game Selection2" width="280" />
+  <img src="screenshots/u_screenshot_023.png" alt="Game Selection2" width="300" />
 </a>
 <a href="screenshots/u_screenshot_024.png">
-  <img src="screenshots/u_screenshot_024.png" alt="Game Selection3" width="280" />
+  <img src="screenshots/u_screenshot_024.png" alt="Game Selection3" width="300" />
 </a>
 <a href="screenshots/u_screenshot_025.png">
-  <img src="screenshots/u_screenshot_025.png" alt="Game Selection2" width="280" />
+  <img src="screenshots/u_screenshot_025.png" alt="Game Selection2" width="300" />
 </a>
 <a href="screenshots/u_screenshot_026.png">
-  <img src="screenshots/u_screenshot_026.png" alt="Game Selection3" width="280" />
+  <img src="screenshots/u_screenshot_026.png" alt="Game Selection3" width="300" />
 </a>
 <br><br><br>
 
 **Game List UI Options**</a>
 
 <a href="screenshots/dc_gamelist.png">
-&nbsp;&nbsp;<img src="screenshots/dc_gamelist.png" alt="Game Selection" width="280" />
+&nbsp;&nbsp;<img src="screenshots/dc_gamelist.png" alt="Game Selection" width="300" />
 </a>
 <a href="screenshots/Mangmi_PSP.png">
-&nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="280" />
+&nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="300" />
 </a>
 <a href="screenshots/Standard_PSP.png">
-&nbsp;&nbsp;<img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="280" />
+&nbsp;&nbsp;<img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="300" />
 </a>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mangmi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard
@@ -92,13 +92,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 **Description Size Options**</a>
 
 <a href="screenshots/small.png">
-&nbsp;&nbsp;<img src="screenshots/small.png" alt="Game Selection" width="280" />
+&nbsp;&nbsp;<img src="screenshots/small.png" alt="Game Selection" width="300" />
 </a>
 <a href="screenshots/med.png">
-&nbsp;&nbsp;<img src="screenshots/med.png" alt="Game Selection2" width="280" />
+&nbsp;&nbsp;<img src="screenshots/med.png" alt="Game Selection2" width="300" />
 </a>
 <a href="screenshots/large.png">
-&nbsp;&nbsp;<img src="screenshots/large.png" alt="Game Selection3" width="280" />
+&nbsp;&nbsp;<img src="screenshots/large.png" alt="Game Selection3" width="300" />
 </a>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large
@@ -107,7 +107,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 ## Pan4ELEC Specific Features
 
 <div align="left">
-  <img src="screenshots/dyn_desc.gif" alt="Dynamic Description" width="280" />
+  <img src="screenshots/dyn_desc.gif" alt="Dynamic Description" width="300" />
 </div>
 
 
