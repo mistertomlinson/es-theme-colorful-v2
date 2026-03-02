@@ -37,8 +37,17 @@ All assets and design elements from the original are used under **Fair Use** pri
   <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
 </a>
 
-- **Game List View**  
-  ![Game List](screenshots/Arcade_gamelist.png) ![Game List](screenshots/PS_gamelist.png) ![Game List](screenshots/SS_gamelist.png)
+- **Game List View**
+
+<a href="screenshots/Arcade_gamelist.png.png">
+  <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
+</a>
+<a href="screenshots/ss_gamelist.png">
+  <img src="screenshots/ss_gamelist.png" alt="Game Selection2" width="300" />
+</a>
+<a href="screenshots/PS_gamelist.png">
+  <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="300" />
+</a>
 
 - **Game Details / Metadata View**  
   ![Game Details](screenshots/game-details.png)
