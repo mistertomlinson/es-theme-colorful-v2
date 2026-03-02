@@ -42,8 +42,8 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/Arcade_gamelist.png.png">
   <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
 </a>
-<a href="screenshots/ss_gamelist1.png">
-  <img src="screenshots/ss_gamelist1.png" alt="Game Selection2" width="300" />
+<a href="screenshots/ss_gamelist.png">
+  <img src="screenshots/ss_gamelist.png" alt="Game Selection2" width="300" />
 </a>
 <a href="screenshots/PS_gamelist.png">
   <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="300" />
