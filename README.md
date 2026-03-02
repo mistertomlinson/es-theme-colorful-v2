@@ -106,16 +106,18 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 ## Pan4ELEC Specific Features
 
-<a href="screenshots/dyn_desc.gif">
-&nbsp;&nbsp;<img src="screenshots/dyn_desc.gif" alt="Dyanmic Description" width="300" />
-</a>
-<br>
-- **Dyanmic Descriptions**
-<br>
-Storyboards which make element animations possible. For example, the "Dynamic Description" feature in P4E uses storyboards to expand the description and move it further up the screen when the box art fades out video plays. The ensures that there is no empty space on the screen at any point (of course some system views have different size box art and video resolutions, so it does not work perfectly for those. Consider your Favorites folder which could contain many different consoles). This is not available in ArkOS.
-<br>
-- **Scrollbars**
-<br>As seen in many of the above screenshots, scrollbars are available in Pan4ELEC only. 
+<div align="center">
+  <img src="screenshots/dyn_desc.gif" alt="Dynamic Description" width="300" />
+</div>
+
+&nbsp;&nbsp;  <!-- Optional extra horizontal space if needed; remove if not wanted -->
+
+- **Dynamic Descriptions**  
+  Storyboards enable smooth element animations. For example, the "Dynamic Description" feature in Pan4ELEC uses storyboards to expand and reposition the description text higher on the screen as the box art fades out and the video starts playing. This keeps the screen layout filled with no empty space at any point. (Note: It works best on consistent box art/video sizes; mixed systems like Favorites folders may not be perfect due to varying resolutions.)  
+  **This feature is exclusive to Pan4ELEC and not available in ArkOS.**
+
+- **Scrollbars**  
+  As visible in many of the screenshots above, scrollbars appear in game lists and other views on Pan4ELEC only. ArkOS lacks native scrollbar support in its EmulationStation build.
 
 
 ## Contributing
