@@ -76,30 +76,28 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 **Game List UI Options**
 
-<div style="display: flex; justify-content: center; gap: 40px; margin: 30px 0; flex-wrap: nowrap;">
-  
-  <div style="text-align: center; flex: 1; max-width: 320px;">
-    <a href="screenshots/dc_gamelist.png">
-      <img src="screenshots/dc_gamelist.png" alt="Dreamcast Game List" width="300" style="display: block; margin: 0 auto 10px auto;" />
-    </a>
-    <div style="color: white; font-weight: bold;">Dreamcast Style</div>
-  </div>
-  
-  <div style="text-align: center; flex: 1; max-width: 320px;">
-    <a href="screenshots/Mangmi_PSP.png">
-      <img src="screenshots/Mangmi_PSP.png" alt="Mangmi PSP Game List" width="300" style="display: block; margin: 0 auto 10px auto;" />
-    </a>
-    <div style="color: white; font-weight: bold;">Mangmi PSP</div>
-  </div>
-  
-  <div style="text-align: center; flex: 1; max-width: 320px;">
-    <a href="screenshots/Standard_PSP.png">
-      <img src="screenshots/Standard_PSP.png" alt="Standard PSP Game List" width="300" style="display: block; margin: 0 auto 10px auto;" />
-    </a>
-    <div style="color: white; font-weight: bold;">Standard PSP</div>
-  </div>
-
-</div>
+<table style="width: 100%; border: none; margin: 30px 0;">
+  <tr>
+    <td style="text-align: center; width: 33%;">
+      <a href="screenshots/dc_gamelist.png">
+        <img src="screenshots/dc_gamelist.png" alt="Game Selection" width="300" style="display: block; margin: 0 auto 12px auto;" />
+      </a>
+      <div style="color: white; font-weight: bold;">Game Selection</div>
+    </td>
+    <td style="text-align: center; width: 33%;">
+      <a href="screenshots/Mangmi_PSP.png">
+        <img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="300" style="display: block; margin: 0 auto 12px auto;" />
+      </a>
+      <div style="color: white; font-weight: bold;">Game Selection2</div>
+    </td>
+    <td style="text-align: center; width: 33%;">
+      <a href="screenshots/Standard_PSP.png">
+        <img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="300" style="display: block; margin: 0 auto 12px auto;" />
+      </a>
+      <div style="color: white; font-weight: bold;">Game Selection3</div>
+    </td>
+  </tr>
+</table>
 <br><br><br>
 
 ## Features
