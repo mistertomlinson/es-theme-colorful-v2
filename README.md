@@ -39,7 +39,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 
 - **Game List View**
-<a href="screenshots/Arcade_gamelist.png.png">
+<a href="screenshots/Arcade_gamelist.png">
   <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="300" />
 </a>
 <a href="screenshots/ss_gamelist.png">
@@ -49,19 +49,22 @@ All assets and design elements from the original are used under **Fair Use** pri
   <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="300" />
 </a>
 
-- **Game Details / Metadata View**  
-  ![Game Details](screenshots/game-details.png)
-
-- **Platform Highlights / Carousel (if applicable)**  
-  ![Platform Carousel](screenshots/platform-carousel.png)
-
-- **Light Mode Example** (if you have variants)  
-  ![Light Mode](screenshots/light-mode.png)
-
-- **Dark Mode Example**  
-  ![Dark Mode](screenshots/dark-mode.png)
-
-(Upload these to a `screenshots/` folder in your repo and update the paths above.)
+- **Customizable Tools Screen**  
+<a href="screenshots/u_screenshot_022.png">
+  <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="300" />
+</a>
+<a href="screenshots/u_screenshot_023.png">
+  <img src="screenshots/u_screenshot_023.png" alt="Game Selection2" width="300" />
+</a>
+<a href="screenshots/u_screenshot_024.png">
+  <img src="screenshots/u_screenshot_024.png" alt="Game Selection3" width="300" />
+</a>
+<a href="screenshots/u_screenshot_025.png">
+  <img src="screenshots/u_screenshot_025.png" alt="Game Selection2" width="300" />
+</a>
+<a href="screenshots/u_screenshot_026.png">
+  <img src="screenshots/u_screenshot_026.png" alt="Game Selection3" width="300" />
+</a>
 
 ## Features
 
