@@ -24,7 +24,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 - Retained the core colorful, elegant style with vibrant platform/system highlights
 - Adjusted views (system select, game list, details) to fit handheld navigation
 
-## Screenshots (pan4ELEC)
+## Screenshots
 
 - **System Selection Screen**  
 <a href="screenshots/Arcade_system.png">
@@ -36,6 +36,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 <a href="screenshots/PSP_system.png">
   <img src="screenshots/PSP_system.png" alt="System Selection3" width="300" />
 </a>
+
 
 - **Game List View**
 <a href="screenshots/Arcade_gamelist.png.png">
