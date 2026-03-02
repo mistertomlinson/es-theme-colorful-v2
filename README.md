@@ -106,6 +106,9 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 ## Pan4ELEC Specific Features
 
+<a href="screenshots/dyn_desc.mp4">
+&nbsp;&nbsp;<img src="screenshots/dyn_desc.mp4" alt="Dynamic Description" width="300" />
+</a>
 - Scrollbars
 - Storyboards which make element animations possible. For example, the "Dynamic Description" feature in P4E uses storyboards to expand the description and move it further up the screen when the box art fades out video plays. The ensures that there is no empty space on the screen at any point (of course some system views have different size box art and video resolutions, so it does not work perfectly for those. Consider your Favorites folder which could contain many different consoles). This is not available in ArkOS.
 
