@@ -6,7 +6,7 @@ This theme is designed to be fully compatible with:
 - **ArkOS**
 - **AmberELEC**
 - **Pan4ELEC**
-- **DarkOS support coming by way of running a script on the device that modifies the theme for compatibility**
+- **DarkOS requires [this script](https://drive.google.com/file/d/155CQvgzMv4DJE6ezFhuyWNSwvIpD-iHt/view?usp=sharing) to run the theme. The script rewrites the theme to be compatible with DarkOS. Install the theme first, then download the script and place it in /roms/tools/. Run it from your tools settings in your Tools folder **
 
 ## Original Inspiration
 
