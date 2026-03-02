@@ -26,8 +26,6 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 ## Screenshots
 
-(Add your screenshots here – recommended: 3–6 images showing key views)
-
 - **System Selection Screen**  
 <a href="screenshots/Arcade_system.png">
   <img src="screenshots/Arcade_system.png" alt="System Selection" width="300" />
