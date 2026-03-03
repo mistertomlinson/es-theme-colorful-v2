@@ -1,12 +1,12 @@
 # Colorful v2
 
-A colorful EmulationStation theme adapted for small-screen handheld devices like the **R36S** (640x480 resolution) and other 1:1 aspect ratio screens. It brings the vibrant, modern aesthetic of the popular **COLORFUL BigBox Theme** to retro handhelds running EmulationStation.
+A colorful EmulationStation theme adapted for small-screen handheld devices like the **R36S** (640x480 resolution) and other aspect ratio screens. It brings the vibrant, modern aesthetic of the popular **COLORFUL BigBox Theme** to retro handhelds running EmulationStation.
 
 This theme is designed to be fully compatible with:
 - **ArkOS**
 - **AmberELEC**
 - **Pan4ELEC**
-- **DarkOS requires [this script](https://drive.google.com/file/d/155CQvgzMv4DJE6ezFhuyWNSwvIpD-iHt/view?usp=sharing) to run the theme. The script rewrites the theme to be compatible with DarkOS. Install the theme first, then download the script and place it in /roms/tools/. Run it from Tools > Tools folder **
+- **DarkOS** Support coming soon via script
 
 ## Original Inspiration
 
@@ -30,13 +30,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 </a>
 <a href="screenshots/Arcade_system.png">
-  <img src="screenshots/Arcade_system.png" alt="System Selection" width="275" />
+  <img src="screenshots/Arcade_system.png" alt="System Selection" width="32%" />
 </a>
 <a href="screenshots/ss_system.png">
-  <img src="screenshots/ss_system.png" alt="System Selection2" width="275" />
+  <img src="screenshots/ss_system.png" alt="System Selection2" width="32%" />
 </a>
 <a href="screenshots/PSP_system.png">
-  <img src="screenshots/PSP_system.png" alt="System Selection3" width="275" />
+  <img src="screenshots/PSP_system.png" alt="System Selection3" width="32%" />
 </a>  
 <br><br><br>
 
@@ -44,13 +44,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 
 </a>
 <a href="screenshots/Arcade_gamelist.png">
-  <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="275" />
+  <img src="screenshots/Arcade_gamelist.png" alt="Game Selection" width="32%" />
 </a>
 <a href="screenshots/ss_gamelist.png">
-  <img src="screenshots/ss_gamelist.png" alt="Game Selection2" width="275" />
+  <img src="screenshots/ss_gamelist.png" alt="Game Selection2" width="32%" />
 </a>
 <a href="screenshots/PS_gamelist.png">
-  <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="275" />
+  <img src="screenshots/PS_gamelist.png" alt="Game Selection3" width="32%" />
 </a>
 <br><br><br>
 
@@ -58,56 +58,58 @@ All assets and design elements from the original are used under **Fair Use** pri
   
 </a>
 <a href="screenshots/u_screenshot_022.png">
-  <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="275" />
+  <img src="screenshots/u_screenshot_022.png" alt="Game Selection" width="32%" />
 </a>
 <a href="screenshots/u_screenshot_023.png">
-  <img src="screenshots/u_screenshot_023.png" alt="Game Selection2" width="275" />
+  <img src="screenshots/u_screenshot_023.png" alt="Game Selection2" width="32%" />
 </a>
 <a href="screenshots/u_screenshot_024.png">
-  <img src="screenshots/u_screenshot_024.png" alt="Game Selection3" width="275" />
+  <img src="screenshots/u_screenshot_024.png" alt="Game Selection3" width="32%" />
 </a>
 <a href="screenshots/u_screenshot_025.png">
-  <img src="screenshots/u_screenshot_025.png" alt="Game Selection2" width="275" />
+  <img src="screenshots/u_screenshot_025.png" alt="Game Selection2" width="32%" />
 </a>
 <a href="screenshots/u_screenshot_026.png">
-  <img src="screenshots/u_screenshot_026.png" alt="Game Selection3" width="275" />
+  <img src="screenshots/u_screenshot_026.png" alt="Game Selection3" width="32%" />
 </a>
 <br><br><br>
 
-**Game List UI Options**</a>
+- **Game List UI Options**
 
-<a href="screenshots/dc_gamelist.png">
-&nbsp;&nbsp;<img src="screenshots/dc_gamelist.png" alt="Game Selection" width="265" />
+<a href="screenshots/Glass_PSP.png">
+<img src="screenshots/Glass_PSP.png" alt="Game Selection" width="32%" />
 </a>
 <a href="screenshots/Mangmi_PSP.png">
-&nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="265" />
+<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="32%" />
 </a>
-<a href="screenshots/Standard_PSP.png">
-&nbsp;&nbsp;<img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="265" />
+<a href="screenshots/Standard_PSP.png"><img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="32%" />
 </a>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mangmi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard
+<table width="100%">
+  <tr>
+    <td align="left"><b>Glass</b></td>
+    <td align="center"><b>Mangmi</b></td>
+    <td align="right"><b>Standard</b></td>
+  </tr>
+</table>
 <br><br><br>
 
-**Description Size Options**</a>
+- **Description Size Options**
 
 <a href="screenshots/small.png">
-&nbsp;&nbsp;<img src="screenshots/small.png" alt="Game Selection" width="265" />
+<img src="screenshots/small.png" alt="Game Selection" width="32%" />
 </a>
 <a href="screenshots/med.png">
-&nbsp;&nbsp;<img src="screenshots/med.png" alt="Game Selection2" width="265" />
+<img src="screenshots/med.png" alt="Game Selection2" width="32%" />
 </a>
-<a href="screenshots/large.png">
-&nbsp;&nbsp;<img src="screenshots/large.png" alt="Game Selection3" width="265" />
+<a href="screenshots/large.png"><img src="screenshots/large.png" alt="Game Selection3" width="32%" />
 </a>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large
 <br><br><br>
 
 ## Pan4ELEC Specific Features
 
 <div align="left">
-  <img src="screenshots/dyn_desc.gif" alt="Dynamic Description" width="275" />
+  <img src="screenshots/dyn_desc.gif" alt="Dynamic Description" width="32%" />
 </div>
 
 
