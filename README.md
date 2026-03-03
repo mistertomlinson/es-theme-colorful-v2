@@ -74,7 +74,7 @@ All assets and design elements from the original are used under **Fair Use** pri
 </a>
 <br><br><br>
 
-**Game List UI Options**</a>
+- **Game List UI Options**
 
 <a href="screenshots/Glass_PSP.png">
 <img src="screenshots/Glass_PSP.png" alt="Game Selection" width="32%" />
