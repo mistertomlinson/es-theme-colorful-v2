@@ -77,13 +77,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 **Game List UI Options**</a>
 
 <a href="screenshots/Glass_PSP.png">
-&nbsp;&nbsp;<img src="screenshots/Glass_PSP.png" alt="Game Selection" width="32%" />
+&nbsp;&nbsp;<img src="screenshots/Glass_PSP.png" alt="Game Selection" width="30%" />
 </a>
 <a href="screenshots/Mangmi_PSP.png">
-&nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="32%" />
+&nbsp;&nbsp;<img src="screenshots/Mangmi_PSP.png" alt="Game Selection2" width="30%" />
 </a>
 <a href="screenshots/Standard_PSP.png">
-&nbsp;&nbsp;<img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="32%" />
+&nbsp;&nbsp;<img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="30%" />
 </a>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Glass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mangmi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard
@@ -92,13 +92,13 @@ All assets and design elements from the original are used under **Fair Use** pri
 **Description Size Options**</a>
 
 <a href="screenshots/small.png">
-&nbsp;&nbsp;<img src="screenshots/small.png" alt="Game Selection" width="32%" />
+&nbsp;&nbsp;<img src="screenshots/small.png" alt="Game Selection" width="30%" />
 </a>
 <a href="screenshots/med.png">
-&nbsp;&nbsp;<img src="screenshots/med.png" alt="Game Selection2" width="32%" />
+&nbsp;&nbsp;<img src="screenshots/med.png" alt="Game Selection2" width="30%" />
 </a>
 <a href="screenshots/large.png">
-&nbsp;&nbsp;<img src="screenshots/large.png" alt="Game Selection3" width="32%" />
+&nbsp;&nbsp;<img src="screenshots/large.png" alt="Game Selection3" width="30%" />
 </a>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Small&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Large
