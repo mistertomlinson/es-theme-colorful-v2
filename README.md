@@ -87,9 +87,9 @@ All assets and design elements from the original are used under **Fair Use** pri
 <br>
 <table width="100%">
   <tr>
-    <td align="left">Glass</td>
-    <td align="center">Mangmi</td>
-    <td align="right">Standard</td>
+    <td align="left"><b>Glass</b></td>
+    <td align="center"><b>Mangmi</b></td>
+    <td align="right"><b>Standard</b></td>
   </tr>
 </table>
 <br><br><br>
