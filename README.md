@@ -84,14 +84,6 @@ All assets and design elements from the original are used under **Fair Use** pri
 </a>
 <a href="screenshots/Standard_PSP.png"><img src="screenshots/Standard_PSP.png" alt="Game Selection3" width="32%" />
 </a>
-<br>
-<table width="100%">
-  <tr>
-    <td align="left"><b>Glass</b></td>
-    <td align="center"><b>Mangmi</b></td>
-    <td align="right"><b>Standard</b></td>
-  </tr>
-</table>
 <br><br><br>
 
 - **Description Size Options**
