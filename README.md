@@ -9,7 +9,7 @@ This theme is designed to be fully compatible with:
 - **ArkOS**
 - **AmberELEC**
 - **Pan4ELEC**
-- **DarkOS** Support coming soon via script
+- **DarkOS**
 
 ## Original Inspiration
 
