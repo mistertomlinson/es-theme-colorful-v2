@@ -2,7 +2,7 @@
 <div align="left">
   <img src="screenshots/demo.gif" alt="Dynamic Description" width="32%" />
 </div>
-
+<br>
 A colorful EmulationStation theme adapted for small-screen handheld devices like the **R36S** (640x480 resolution) and other aspect ratio screens. It brings the vibrant, modern aesthetic of the popular **COLORFUL BigBox Theme** to retro handhelds running EmulationStation.
 
 This theme is designed to be fully compatible with:
