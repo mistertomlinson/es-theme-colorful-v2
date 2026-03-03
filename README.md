@@ -10,7 +10,8 @@ This theme is designed to be fully compatible with:
 - **DarkOS**
 - **AmberELEC**
 - **Pan4ELEC**
-<br><br>I recommend disabling caarousel transitions in UI Settings for smoother performance in ArkOS
+<br><br>
+I recommend disabling caarousel transitions in UI Settings for smoother performance in ArkOS
 
 ## Original Inspiration
 
