@@ -7,9 +7,10 @@ A colorful EmulationStation theme adapted for small-screen handheld devices like
 
 This theme is designed to be fully compatible with:
 - **ArkOS**
+- **DarkOS**
 - **AmberELEC**
 - **Pan4ELEC**
-- **DarkOS**
+<br>I recommend disabling caarousel transitions in UI Settings for smoother performance in ArkOS
 
 ## Original Inspiration
 
