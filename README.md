@@ -7,9 +7,11 @@ A colorful EmulationStation theme adapted for small-screen handheld devices like
 
 This theme is designed to be fully compatible with:
 - **ArkOS**
+- **DarkOS**
 - **AmberELEC**
 - **Pan4ELEC**
-- **DarkOS** Support coming soon via script
+  
+I recommend disabling carousel transitions in UI Settings for smoother performance in ArkOS
 
 ## Original Inspiration
 
@@ -113,7 +115,7 @@ All assets and design elements from the original are used under **Fair Use** pri
   **This feature is exclusive to Pan4ELEC and not available in ArkOS.**
 
 - **Scrollbars**  
-  As visible in many of the screenshots above, scrollbars appear in game lists and other views on Pan4ELEC only. ArkOS lacks native scrollbar support in its EmulationStation build.
+  As visible in many of the screenshots above, scrollbars appear in game lists on Pan4ELEC only. ArkOS lacks native scrollbar support in its EmulationStation build.
 
 
 ## Contributing
