@@ -9,7 +9,11 @@
     <include name="r36splus" displayName="R36S Plus">./../inc/r36splusnv.xml</include>
   </subset>
 
-<view name="detailed, basic">
+<view name="detailed, basic, video">
+
+    <video name="md_video">
+      <visible>false</visible>
+    </video>
 
     <image name="logo">
       <maxSize>0.35 0.425</maxSize>

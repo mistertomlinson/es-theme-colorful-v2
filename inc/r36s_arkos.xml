@@ -25,7 +25,12 @@
    
     </view>
 
-    <view name="detailed, basic">
+    <!-- The Tools/Settings system keeps its custom layout even when Video is the active gamelist view. -->
+    <view name="detailed, basic, video">
+
+    <video name="md_video">
+      <visible>false</visible>
+    </video>
 
     <image name="logo">
       <maxSize>0.35 0.425</maxSize>
