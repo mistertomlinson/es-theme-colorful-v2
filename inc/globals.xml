@@ -1,205 +1,105 @@
 <?xml version="1.0"?>
 <theme>
   <formatVersion>7</formatVersion>
-  <variables>
-    <colorBlack>060606</colorBlack>
-    <colorWhite>fbfbfb</colorWhite>
-    <colorGray>888888</colorGray>
-    <colorGrayVeryDark>222222</colorGrayVeryDark>
-    <colorGrayDark>444444</colorGrayDark>
-    <colorGrayMidDark>666666</colorGrayMidDark>
-    <colorGrayMidLight>bbbbbb</colorGrayMidLight>
-    <colorGrayLight>dddddd</colorGrayLight>
-    <colorNeutralContrast>${colorWhite}</colorNeutralContrast>
-    <colorNone>00000000</colorNone>
-    <opacity0P>00</opacity0P>
-    <opacity20P>33</opacity20P>
-    <opacity25P>40</opacity25P>
-    <opacity40P>66</opacity40P>
-    <opacity50P>80</opacity50P>
-    <opacity60P>99</opacity60P>
-    <opacity75P>c0</opacity75P>
-    <opacity80P>cc</opacity80P>
-    <opacity100P>ff</opacity100P>
-    <imageBlank>./assets/images/blank_1x1.png</imageBlank>
-    <soundScroll>./assets/sounds/select.wav</soundScroll>
-  </variables>
+  <include>./globals_video_base.xml</include>
 
-  <!-- Shared Video view. ArkOS gamelist UI wrappers can override the media layout;
-       Pan4ELEC receives this layout directly so Video is a selectable view there too. -->
+  <!-- Keep the existing black media frame when Video view shows a clip or snapshot. -->
   <view name="video" extra="true">
-    <image name="bgFallback" extra="true">
-      <pos>0 0</pos>
-      <size>1 1</size>
-      <zIndex>0</zIndex>
-      <path>./assets/wall/${system.theme}.png</path>
-      <path>./assets/wall/${system.theme}.jpg</path>
+    <image name="box_art_border" extra="true">
+      <maxSize>0.68 0.84</maxSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.665 0.49</pos>
+      <zIndex>9</zIndex>
+      <path>./inc/images/backdrop.png</path>
+    </image>
+  </view>
+
+  <!-- Settings/Tools has its own details layout and must not inherit the game Video media layout. -->
+  <view name="video" ifSubset="tools:2.0">
+    <video name="md_video">
+      <visible>false</visible>
+    </video>
+    <image name="box_art_border">
+      <visible>false</visible>
     </image>
 
-    <image name="background" extra="true">
+    <image name="toolsgamelist1" extra="true">
       <size>1 1</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
-      <zIndex>1</zIndex>
-      <path>./assets/gamelist_wall/${system.theme}.png</path>
-      <path>./assets/gamelist_wall/${system.theme}.jpg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <zIndex>499</zIndex>
+      <path ifSubset="device:r36s">./../assets/wall/tools.png</path>
+      <path ifSubset="device:r36xx">./../assets/wall/r36xx.png</path>
+      <path ifSubset="device:r36h">./../assets/wall/r36h.png</path>
+      <path ifSubset="device:g350">./../assets/wall/g350.png</path>
+      <path ifSubset="device:r36splus">./../assets/wall/r36splus.png</path>
+    </image>
+
+    <image name="toolsgamelist2" extra="true">
+      <size>1 1</size>
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <zIndex>500</zIndex>
+      <path ifSubset="device:r36s">./../toolsgamelist.png</path>
+      <path ifSubset="device:r36xx">./../r36xxgamelist.png</path>
+      <path ifSubset="device:r36h">./../r36hgamelist.png</path>
+      <path ifSubset="device:g350">./../g350gamelist.png</path>
+      <path ifSubset="device:r36splus">./../r36splusgamelist.png</path>
+      <storyboard>
+        <animation event="activate" property="opacity" from="0" to="1" duration="350" mode="easeOut"/>
+      </storyboard>
     </image>
 
     <image name="logo">
-      <maxSize>0.29 0.09</maxSize>
+      <maxSize>0.35 0.425</maxSize>
       <origin>0.5 0.5</origin>
-      <pos>0.1675 0.09</pos>
+      <pos>0.25 0.5</pos>
       <horizontalAlignment>center</horizontalAlignment>
       <verticalAlignment>center</verticalAlignment>
-      <path>./assets/logos/${system.theme}.png</path>
-      <path>./assets/logos/${system.theme}.svg</path>
-      <path>./assets/logos/us/${system.theme}.png</path>
-      <path>./assets/logos/us/${system.theme}.svg</path>
-      <path>./assets/logos/${system.theme}-${lang}.png</path>
-      <path>./assets/logos/${system.theme}-${lang}.svg</path>
-      <zIndex>6</zIndex>
+      <path>./../assets/logos/${system.theme}.png</path>
+      <path>./../assets/logos/${system.theme}.svg</path>
+      <path>./../assets/logos/us/${system.theme}.png</path>
+      <path>./../assets/logos/us/${system.theme}.svg</path>
+      <path>./../assets/logos/${system.theme}-${lang}.png</path>
+      <path>./../assets/logos/${system.theme}-${lang}.svg</path>
+      <zIndex>501</zIndex>
+      <storyboard>
+        <animation property="x" from="-.5" to="0.75" begin="0" duration="350" mode="linear"/>
+      </storyboard>
     </image>
 
     <textlist name="gamelist">
+      <size>0.50 0.82</size>
       <origin>0 0</origin>
-      <pos>0.015 0.16</pos>
-      <size>0.305 0.80</size>
+      <pos>0 0.1</pos>
       <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
-      <fontSize>0.03</fontSize>
+      <fontSize>0.035</fontSize>
       <alignment>left</alignment>
-      <horizontalMargin>0.01</horizontalMargin>
-      <lineSpacing>1.45</lineSpacing>
+      <horizontalMargin>0.006</horizontalMargin>
+      <lineSpacing>1.5</lineSpacing>
       <primaryColor>ffffff80</primaryColor>
       <secondaryColor>ffffff80</secondaryColor>
       <selectorColor>${selectorcolor}</selectorColor>
       <selectedColor>ffffff</selectedColor>
       <scrollSound>${soundScroll}</scrollSound>
-      <zIndex>7</zIndex>
+      <scrollbarColor>59595900</scrollbarColor>
+      <scrollbarSize>0.013</scrollbarSize>
+      <scrollbarCorner>.5</scrollbarCorner>
+      <scrollbarAlignment>outer left</scrollbarAlignment>
+      <storyboard>
+        <animation property="x" from="-.73" to="0.02" duration="550" mode="easeOut"/>
+        <animation event="activate" property="opacity" from="0" to="1" duration="500" mode="easeOut"/>
+      </storyboard>
+      <zIndex>502</zIndex>
     </textlist>
 
-    <textlist name="gamelist" ifHelpPrompts="true">
-      <size>0.305 0.72</size>
-    </textlist>
-
-    <text name="md_description,md_developer,md_genre,md_players,md_publisher,md_playcount,md_lbl_releasedate,md_lbl_publisher">
-      <visible>false</visible>
-    </text>
-    <datetime name="md_releasedate,md_lastplayed">
-      <visible>false</visible>
-    </datetime>
-
-    <video name="md_video">
-      <maxSize>0.66 0.82</maxSize>
-      <origin>0.5 0.5</origin>
-      <pos>0.665 0.49</pos>
-      <delay>1.5</delay>
-      <effect>none</effect>
-      <loops>true</loops>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <zIndex>8</zIndex>
-    </video>
-  </view>
-
-  <!-- Video-mode help bar. Without this, EmulationStation falls back to its default help styling. -->
-  <view name="video" ifHelpPrompts="true">
     <helpsystem name="help">
-      <origin>0.5 1</origin>
-      <pos>0.515 0.98</pos>
-      <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
-      <fontSize>0.025</fontSize>
-      <alignment>center</alignment>
+      <origin>0.5 0.5</origin>
+      <pos>-0.505 -0.96</pos>
+      <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
+      <fontSize>0.027</fontSize>
       <textColor>${colorWhite}</textColor>
       <iconColor>${colorWhite}</iconColor>
     </helpsystem>
-
-    <helpsystem name="help" ifSubset="help_ui:strip_small">
-      <pos>0.513 0.989</pos>
-      <fontSize>0.022</fontSize>
-    </helpsystem>
-    <helpsystem name="help" ifSubset="help_ui:no_strip_small">
-      <pos>0.513 0.984</pos>
-      <fontSize>0.022</fontSize>
-    </helpsystem>
-    <helpsystem name="help" ifSubset="help_ui:strip_medium">
-      <pos>0.513 0.989</pos>
-      <fontSize>0.026</fontSize>
-    </helpsystem>
-    <helpsystem name="help" ifSubset="help_ui:no_strip_medium">
-      <pos>0.513 0.984</pos>
-      <fontSize>0.026</fontSize>
-    </helpsystem>
-    <helpsystem name="help" ifSubset="help_ui:strip_large">
-      <pos>0.513 0.988</pos>
-      <fontSize>0.031</fontSize>
-    </helpsystem>
-    <helpsystem name="help" ifSubset="help_ui:no_strip_large">
-      <pos>0.513 0.984</pos>
-      <fontSize>0.031</fontSize>
-    </helpsystem>
-  </view>
-
-  <!-- ArkOS help overlays for Video mode. -->
-  <view name="video" ifSubset="compatibility:arkos">
-    <image name="video_help_bubble_on_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_unswapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_on_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_swapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_off_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_unswapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_off_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_swapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_small" ifHelpPrompts="true" ifSubset="help_ui:strip_small" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay8.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_medium" ifHelpPrompts="true" ifSubset="help_ui:strip_medium" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay11.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_large" ifHelpPrompts="true" ifSubset="help_ui:strip_large" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay10.png</path><zIndex>200</zIndex>
-    </image>
-  </view>
-
-  <!-- Pan4ELEC help overlays for Video mode. -->
-  <view name="video" ifSubset="compatibility:pan4elec">
-    <image name="video_help_bubble_on_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_unswapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_on_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_swapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_off_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_unswapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_off_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_swapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_small" ifHelpPrompts="true" ifSubset="help_ui:strip_small" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay8.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_medium" ifHelpPrompts="true" ifSubset="help_ui:strip_medium" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay11.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_large" ifHelpPrompts="true" ifSubset="help_ui:strip_large" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay10.png</path><zIndex>200</zIndex>
-    </image>
   </view>
 </theme>
