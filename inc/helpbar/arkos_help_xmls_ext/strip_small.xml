@@ -21,7 +21,7 @@
     </image>
 </view>
 
-  <view name="detailed, basic" ifHelpPrompts="true">
+  <view name="detailed, basic, video" ifHelpPrompts="true">
 <helpsystem name="help">
   <origin>0.5 1</origin>
   <pos>0.513 0.989</pos>

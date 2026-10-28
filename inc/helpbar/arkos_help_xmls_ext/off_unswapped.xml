@@ -21,10 +21,10 @@
   </image>
 </view>
 
-  <view name="detailed, basic" ifHelpPrompts="true">
+  <view name="detailed, basic, video" ifHelpPrompts="true">
     <helpsystem name="help">
   <origin>0.5 1</origin>
-  <pos>0.515 0.98</pos>
+  <pos>0.5 0.98</pos>
   <fontPath>./../assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
   <fontSize>0.025</fontSize>
   <alignment>center</alignment>

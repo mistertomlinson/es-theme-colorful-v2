@@ -103,7 +103,7 @@
   </view>
 
   <!-- Video-mode help bar. Without this, EmulationStation falls back to its default help styling. -->
-  <view name="video" ifHelpPrompts="true">
+  <view name="video" ifHelpPrompts="true" ifSubset="compatibility:pan4elec">
     <helpsystem name="help">
       <origin>0.5 1</origin>
       <pos>0.5 0.98</pos>
@@ -138,38 +138,6 @@
       <pos>0.5 0.984</pos>
       <fontSize>0.031</fontSize>
     </helpsystem>
-  </view>
-
-  <!-- ArkOS help overlays for Video mode. -->
-  <view name="video" ifSubset="compatibility:arkos">
-    <image name="video_help_bubble_on_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_unswapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_on_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_on_swapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_off_unswapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_unswapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_bubble_off_swapped" ifHelpPrompts="true" ifSubset="help_ui:bubble_off_swapped" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay2.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_small" ifHelpPrompts="true" ifSubset="help_ui:strip_small" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay8.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_medium" ifHelpPrompts="true" ifSubset="help_ui:strip_medium" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay11.png</path><zIndex>200</zIndex>
-    </image>
-    <image name="video_help_strip_large" ifHelpPrompts="true" ifSubset="help_ui:strip_large" extra="true">
-      <size>1 1</size><origin>0 0</origin><pos>0 0</pos>
-      <path>./inc/helpbar/underlays/help-underlay10.png</path><zIndex>200</zIndex>
-    </image>
   </view>
 
   <!-- Pan4ELEC help overlays for Video mode. -->
