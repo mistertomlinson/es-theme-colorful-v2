@@ -8,19 +8,13 @@
 
   <!-- The Screenshots system intentionally keeps its black frame in Video view. -->
   <view name="video" extra="true">
-    <!-- Shift the screenshot, halo, and frame left so the frame's right edge matches the gamelist's 1.5% left margin. -->
+    <!-- Shift the screenshot and frame left so the frame's right edge matches the gamelist's 1.5% left margin. -->
     <video name="md_video" ifHelpPrompts="true">
       <pos>0.655 0.49</pos>
     </video>
     <video name="md_video" ifHelpPrompts="false">
       <pos>0.655 0.5</pos>
     </video>
-    <image name="video_media_halo" ifHelpPrompts="true">
-      <pos>0.655 0.49</pos>
-    </image>
-    <image name="video_media_halo" ifHelpPrompts="false">
-      <pos>0.655 0.5</pos>
-    </image>
 
     <image name="video_screenshot_border" extra="true" ifHelpPrompts="true">
       <maxSize>0.66 0.84</maxSize>

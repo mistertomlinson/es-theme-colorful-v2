@@ -24,7 +24,7 @@
   <view name="detailed, basic, video" ifHelpPrompts="true">
 <helpsystem name="help">
   <origin>0.5 1</origin>
-  <pos>0.5 0.99</pos>
+  <pos>0.515 0.99</pos>
   <fontPath>./assets/fonts/RobotoCondensed-Regular.ttf</fontPath>
   <fontSize>0.024</fontSize>
   <alignment>center</alignment>
