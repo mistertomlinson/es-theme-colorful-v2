@@ -12,7 +12,13 @@
     </image>  
    
     </view>
-    <view name="detailed, basic">
+
+    <!-- Keep the custom R36S Tools/Settings layout when Video is the selected view. -->
+    <view name="detailed, basic, video">
+
+    <video name="md_video">
+      <visible>false</visible>
+    </video>
 
     <image name="logo">
       <maxSize>0.35 0.425</maxSize>
