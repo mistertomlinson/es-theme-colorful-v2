@@ -7,6 +7,10 @@ on:
     paths:
       - scripts/generate_video_gamelist_fades.py
       - .github/workflows/generate-video-gamelist-fades.yml
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
 
 permissions:
   contents: write
