@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <theme>
   <formatVersion>7</formatVersion>
+
+  <!-- Direct native Video registration for ArkOS compatibility. -->
+  <view name="video"/>
   <include>./theme_video_base.xml</include>
 
   <!-- The Screenshots system intentionally keeps its black frame in Video view. -->

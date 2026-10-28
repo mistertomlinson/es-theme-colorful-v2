@@ -1,6 +1,9 @@
 <theme>
 
-<formatVersion>7</formatVersion>   
+<formatVersion>7</formatVersion>
+
+  <!-- Direct native Video registration for ArkOS compatibility. -->
+  <view name="video"/>
 
 <include>./../theme.xml</include> 
 
