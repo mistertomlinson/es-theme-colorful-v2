@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-<subset name="box_art_size" displayName="Description Size">
+<subset name="box_art_size" displayName="Description Size" appliesTo="detailed">
  <include name="large" displayName="small"/>
  <include name="medium" displayName="medium"/>
  <include name="small" displayName="large"/>

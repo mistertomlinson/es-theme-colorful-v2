@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
 
-<subset name="box_art_size" displayName="Description Size">
+<subset name="box_art_size" displayName="Description Size" appliesTo="detailed">
  <include name="large" displayName="small">./inc/gamelist_ui/arkos_small_desc.xml</include>
  <include name="medium" displayName="medium">./inc/gamelist_ui/arkos_med_desc.xml</include>
  <include name="small" displayName="large">./inc/gamelist_ui/arkos_large_desc.xml</include>
