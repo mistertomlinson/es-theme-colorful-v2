@@ -2,15 +2,4 @@
 <theme>
   <formatVersion>7</formatVersion>
   <include>./globals_video_base.xml</include>
-
-  <!-- Cross-platform right-edge fade for Video gamelists. Reuses each system's existing matched gradient artwork. -->
-  <view name="video" extra="true">
-    <image name="video_gamelist_gradient" extra="true">
-      <size>1 1</size>
-      <origin>0 0</origin>
-      <pos>0 0</pos>
-      <zIndex>7.5</zIndex>
-      <path>./assets/gamelist_gradient/${system.theme}.png</path>
-    </image>
-  </view>
 </theme>

@@ -8,7 +8,7 @@
     <video name="md_video">
       <visible>false</visible>
     </video>
-    <image name="video_gamelist_gradient">
+    <image name="video_media_border">
       <visible>false</visible>
     </image>
 
