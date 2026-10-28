@@ -11,6 +11,9 @@
     <image name="video_gamelist_fade">
       <visible>false</visible>
     </image>
+    <image name="video_media_halo">
+      <visible>false</visible>
+    </image>
 
     <image name="toolsgamelist1" extra="true">
       <size>1 1</size>
