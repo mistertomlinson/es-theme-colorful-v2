@@ -2,4 +2,22 @@
 <theme>
   <formatVersion>7</formatVersion>
   <include>./globals_video_base.xml</include>
+
+  <!-- Backdrop-matched right-edge fade for the narrower Video gamelist. -->
+  <view name="video" extra="true">
+    <image name="video_gamelist_fade" extra="true" ifHelpPrompts="false">
+      <pos>0.27 0.16</pos>
+      <size>0.05 0.80</size>
+      <origin>0 0</origin>
+      <zIndex>7.5</zIndex>
+      <path>./assets/video_gamelist_gradient/${system.theme}.png</path>
+    </image>
+    <image name="video_gamelist_fade" extra="true" ifHelpPrompts="true">
+      <pos>0.27 0.16</pos>
+      <size>0.05 0.72</size>
+      <origin>0 0</origin>
+      <zIndex>7.5</zIndex>
+      <path>./assets/video_gamelist_gradient/${system.theme}_help.png</path>
+    </image>
+  </view>
 </theme>
