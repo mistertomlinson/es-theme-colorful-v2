@@ -22,6 +22,25 @@
       <path>./../assets/gamelist_wall/${system.theme}.jpg</path>
     </image>
 
+    <!-- ArkOS: native-style backdrop overlay: transparent left, fade across the list edge, then opaque backdrop to the right. -->
+    <image name="video_gamelist_fade" extra="true" ifHelpPrompts="false">
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <zIndex>7.5</zIndex>
+      <path>./../assets/video_gamelist_gradient_arkos_full/${system.theme}.png</path>
+    </image>
+    <image name="video_gamelist_fade" extra="true" ifHelpPrompts="true">
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <zIndex>7.5</zIndex>
+      <path>./../assets/video_gamelist_gradient_arkos_full/${system.theme}_help.png</path>
+    </image>
+
+    
+
+
     <image name="logo">
       <maxSize>0.29 0.09</maxSize>
       <origin>0.5 0.5</origin>
@@ -65,8 +84,7 @@
     <datetime name="md_releasedate,md_lastplayed">
       <visible>false</visible>
     </datetime>
-
-    <video name="md_video" ifHelpPrompts="true">
+<video name="md_video" ifHelpPrompts="true">
       <maxSize>0.64 0.82</maxSize>
       <origin>0.5 0.5</origin>
       <pos>0.655 0.49</pos>
